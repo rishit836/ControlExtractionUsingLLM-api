@@ -148,10 +148,35 @@ Extraction Rules:
 - Fields:
     - "control_id": The exact identifier.
     - "control_title": The heading.
-    - "control_desc": The operative "shall/must" statement.
+    - "control_desc": The operative "shall/must" statement. if it does,t ten its not a control and dont include that in the list.
 - If NO controls are found (e.g., only Discussion text or Enhancements), output strictly: []
 
 Output Format:
+- Return ONLY the raw JSON list. No markdown. No explanations.
+    """
+# using shorter prompt for now to remove hallucination
+    system_prompt ="""
+    Role: Compliance Auditor.
+
+Task: Extract controls into a raw JSON list: [{"control_id", "control_title", "control_desc"}].
+
+Strict Extraction Rules:
+
+    -Valid IDs: Must appear at the start of a line (e.g., AC-1, A.5.1, Sec. 404).
+    -Valid Description: longer than 3 words, and must use imperative words.
+
+    note: if any of the above is absent dont include that in the list.
+
+Ignore:
+    -"Related Controls" or comma-separated reference lists.
+    -"Discussion" sections.
+    -Sub-items like "(1)" or "(a)" unless they include the full prefix (e.g., "AC-2(1)").
+    -IDs embedded in the middle of sentences.
+
+Validation: control_desc must be >3 words. Exclude entries if any field is missing.
+
+Output Format:
+
 - Return ONLY the raw JSON list. No markdown. No explanations.
     """
     # message format
@@ -181,6 +206,90 @@ Output Format:
 
     # returning the response
     return response.strip()
+
+
+d# validating the controls in the json file extracted using llm.
+def clean_and_validate_controls(controls_list):
+    cleaned_list = []
+    
+    # --- 1. Regex Patterns for Different Standards ---
+    
+    # NIST Style: 2+ uppercase letters, hyphen, numbers (e.g., AC-1, AC-2(a))
+    nist_pattern = r"^[A-Z]{2,}-\d+(?:\([a-z0-9]+\))?([a-z])?$"
+    
+    # ISO / PCI / CIS Style: Starts with digit or 'A.', followed by dots (e.g., A.5.1.1, 9.2, 1.1.1)
+    dot_notation_pattern = r"^[A-Z]?\d+(?:\.\d+)+([a-z])?$"
+    
+    # Combined pattern (Matches either)
+    valid_id_regex = re.compile(f"({nist_pattern})|({dot_notation_pattern})")
+
+    # --- 2. Blocklist (Stop "Page 10", "Section 4", dates, etc.) ---
+    invalid_prefixes = ["page", "section", "chapter", "table", "figure", "appendix", "version", "copyright"]
+
+    # --- 3. Hallucination Filters ---
+    hallucination_triggers = [
+        "not explicitly stated", 
+        "related to", 
+        "see control", 
+        "this section intentionally left blank",
+        "reserved"
+    ]
+
+    seen_ids = set()
+
+    for entry in controls_list:
+        # skipping invalid json token (highly unlikely)
+        if not isinstance(entry, dict):
+            continue
+            
+        # Extract & Clean Strings
+        c_id = str(entry.get("control_id", "")).strip()
+        c_title = str(entry.get("control_title", "")).strip()
+        c_desc = str(entry.get("control_desc", "")).strip()
+        
+        # Normalize Smart Quotes & Spaces
+        replacements = {"\u2018": "'", "\u2019": "'", "\u201c": '"', "\u201d": '"', "\xa0": " "}
+        for k, v in replacements.items():
+            c_id = c_id.replace(k, v)
+            c_title = c_title.replace(k, v)
+            c_desc = c_desc.replace(k, v)
+
+        # CHECK 1: Missing Data
+        if not c_id or not c_title or not c_desc:
+            continue
+
+        # CHECK 2: Blocklist (Fast fail for obvious noise)
+        if any(c_id.lower().startswith(prefix) for prefix in invalid_prefixes):
+            continue
+
+        # CHECK 3: ID Format Validation (Flexible)
+        # If it doesn't match NIST or Dot-notation, we skip it.
+        # This filters out random headers like "Access Control Policy" getting into the ID field.
+        if not valid_id_regex.match(c_id):
+            # Fallback: If your extraction is messy, you might loosen this, 
+            # but keeping it strict ensures high quality for ISO/NIST.
+            continue
+
+        # CHECK 4: Description Quality
+        if len(c_desc.split()) < 3: # allow slightly shorter ISO descriptions
+            continue
+            
+        if any(phrase in c_desc.lower() for phrase in hallucination_triggers):
+            continue
+
+        # CHECK 5: Deduplication
+        # Only keep the first occurrence of an ID to prevent page overlaps duplicating data
+        if c_id in seen_ids:
+            continue
+        seen_ids.add(c_id)
+
+        cleaned_list.append({
+            "control_id": c_id,
+            "control_title": c_title,
+            "control_desc": c_desc
+        })
+
+    return cleaned_list
 
 
 def extract_controls(pdf_path,uuid_of_file):
@@ -247,11 +356,17 @@ def extract_controls(pdf_path,uuid_of_file):
     minutes = int(total_duration // 60)
     seconds = int(total_duration % 60)
 
+
+    # cleaning the json file (removing the data which is not a valid control)
+    print(f"Raw controls found: {len(all_extracted_data)}")
+    final_clean_data = clean_and_validate_controls(all_extracted_data)
+    print(f"Cleaned controls: {len(final_clean_data)}")
+
     if not os.path.exists("extracted_controls/"):
         os.mkdir("extracted_controls")
 
 
     with open(f"extracted_controls/{uuid_of_file}.json", "w", encoding="utf-8") as f:
-        json.dump(all_extracted_data, f, indent=2, ensure_ascii=False)
+        json.dump(final_clean_data, f, indent=2, ensure_ascii=False)
 
-    print(f"extraction done in {minutes}m {seconds}s.found {len(all_extracted_data)} ({total_duration//len(all_extracted_data)}s/per control)")
+    print(f"extraction done in {minutes}m {seconds}s.found {len(final_clean_data)} ({total_duration//len(final_clean_data)}s/per control)")
