@@ -35,6 +35,8 @@ def status_code():
 # example http://127.0.0.1:8000/extract_controls/c530429137b94b7fb11e0a08cdd00a50
 # this ensures that multiple files can be uploaded and data can be fetched based on uuid of the file
 
+# websocket can be created incase the front end wants
+
 @app.get("/extract_controls/{uuid_of_file}")
 def controls_request(uuid_of_file:str):
     # checking if the thread process exists for the file based on uuid
@@ -45,9 +47,16 @@ def controls_request(uuid_of_file:str):
     else:
         # if the extraction is done it just reads the saved data and returns it to the file
         path = os.path.join("extracted_controls",uuid_of_file+".json")
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)   
-            return data
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)   
+                return data
+        else:
+            return {"msg":"invalid uuid"}
+
+            
+            
+        
 
 
 # api endpoint -2
@@ -57,6 +66,8 @@ def controls_request(uuid_of_file:str):
 # NOTE:the request-sender must store the uuid returned for accesing the file control/status
 @app.post("/upload")
 async def upload(file: UploadFile = File(...)):
+    if not os.path.exists("uploads"):
+        UPLOAD_DIR.mkdir(parents=True,exist_ok=True)
 
     # checking if the pdf file is pdf or not
     if not file.filename or not file.filename.lower().endswith(".pdf"):

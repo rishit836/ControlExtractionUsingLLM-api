@@ -5,7 +5,12 @@ import json
 import time
 from transformers import AutoModelForCausalLM,AutoTokenizer,BitsAndBytesConfig,pipeline
 import os
+from huggingface_hub import login
+from dotenv import load_dotenv
 
+load_dotenv()
+
+login(os.environ['hugging_face_token'])
 
 import re
 def normalize_text(raw_text):
@@ -107,13 +112,47 @@ def load_model(model_id="Qwen/Qwen2.5-7B-Instruct"):
 def extract_controls_from_page(page_text,model,tokenizer):
     # prompt for the llm
     system_prompt = """
-    You are an expert ISO Auditor.
-    Task: Extract ISO controls from the text, the text might contain other uncessary information but ignore that.
-    Output Format: Return ONLY a raw JSON list of objects: {"control_id": "A.x.x", "control_title": "5-6 words title given in the text","control_desc":{description of the title given in the text}}.
-    Rules:
-    - If controls are found, output the JSON list.
-    - If NO controls are found, output strictly: []
-    - Do not include any explanation, markdown, or code blocks (like ```json). Just the raw list.
+You are an expert Compliance Auditor specialized in ISO, NIST, and Regulatory frameworks.
+
+Task: Extract individual definitive controls or regulatory requirements from the provided text.
+
+CRITICAL - ANTI-HALLUCINATION RULES:
+1. IGNORE "Related Controls":
+   - You will see lines like: "Related Controls: AC-3, AC-5, AC-6..."
+   - THESE ARE REFERENCES, NOT DEFINITIONS.
+   - NEVER extract an ID from a "Related Controls" line.
+   - If an ID appears at the *end* of a text block, it is a reference. Ignore it.
+
+2. IGNORE "Discussion" Sections:
+   - Text labeled "Discussion:" is explanatory context. It is NOT the control requirement.
+   - Do not extract text from the "Discussion" section as a "control_desc".
+
+3. IGNORE "Enhancements" without full IDs:
+   - Items listed as "(1)", "(2)", "(a)" are sub-enhancements.
+   - Unless they have the full prefix (e.g., "AC-2(1)"), they are INVALID.
+   - In this specific context, if you see "(1) ACCOUNT MANAGEMENT", skip it.
+
+Control ID Identification Logic:
+A Valid Control ID must be the **first** significant element on a line.
+- NIST Style: Must start with letters, followed by a hyphen and number (e.g., "AC-1", "PM-10").
+- Annex A Style: Must look like "A.5.1".
+- Section Style: Must look like "Sec. 404".
+
+STRICT INVALID IDs (STOP if you see these):
+- "(1)", "(2)", "(a)", "(b)"
+- "AC-3, AC-5" (Comma-separated lists are references)
+- IDs found inside a sentence.
+
+Extraction Rules:
+- If valid controls are found, return ONLY a raw JSON list.
+- Fields:
+    - "control_id": The exact identifier.
+    - "control_title": The heading.
+    - "control_desc": The operative "shall/must" statement.
+- If NO controls are found (e.g., only Discussion text or Enhancements), output strictly: []
+
+Output Format:
+- Return ONLY the raw JSON list. No markdown. No explanations.
     """
     # message format
     messages = [
@@ -192,6 +231,7 @@ def extract_controls(pdf_path,uuid_of_file):
             if isinstance(data, list):
                 count = len(data)
                 print(f"   > Success! Found {count} controls.")
+                        
                 all_extracted_data.extend(data)
             else:
                 print(f"   > Warning: Model returned valid JSON but not a list.")
@@ -213,3 +253,5 @@ def extract_controls(pdf_path,uuid_of_file):
 
     with open(f"extracted_controls/{uuid_of_file}.json", "w", encoding="utf-8") as f:
         json.dump(all_extracted_data, f, indent=2, ensure_ascii=False)
+
+    print(f"extraction done in {minutes}m {seconds}s.found {len(all_extracted_data)} ({total_duration//len(all_extracted_data)}s/per control)")
