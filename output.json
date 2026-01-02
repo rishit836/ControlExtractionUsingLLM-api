@@ -1,0 +1,392 @@
+[
+  {
+    "control_id": "AC-1",
+    "control_title": "Develop, document, and disseminate access control policy and procedures",
+    "control_desc": "Develop, document, and disseminate to organization-defined personnel or roles, organization-level, mission/business process-level, or system-level access control policy and procedures."
+  },
+  {
+    "control_id": "AC-2",
+    "control_title": "Account Management",
+    "control_desc": "Define and document account types, assign managers, specify user access, require approvals for account creation, manage account lifecycle, authorize access based on criteria, review compliance, change shared account authenticators, align with termination processes."
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Account Management",
+    "control_desc": "Establish and maintain accountability for system components."
+  },
+  {
+    "control_id": "AC-5",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that only authorized users have access to organizational resources."
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege."
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege and that access is reviewed periodically."
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege and that access is reviewed periodically and that access is granted based on the principle of least privilege and that access is reviewed periodically."
+  },
+  {
+    "control_id": "AC-20",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege and that access is reviewed periodically and that access is granted based on the principle of least privilege and that access is reviewed periodically."
+  },
+  {
+    "control_id": "AC-24",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege and that access is reviewed periodically and that access is granted based on the principle of least privilege and that access is reviewed periodically."
+  },
+  {
+    "control_id": "AU-2",
+    "control_title": "Audit and Accountability",
+    "control_desc": "Maintain audit records for system components."
+  },
+  {
+    "control_id": "AU-12",
+    "control_title": "Audit and Accountability",
+    "control_desc": "Maintain audit records for system components and ensure that audit records are protected from unauthorized modification."
+  },
+  {
+    "control_id": "CM-5",
+    "control_title": "Configuration Management",
+    "control_desc": "Ensure that system components are configured according to established security policies."
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Ensure that user identities are unique and that user identities are managed according to established security policies."
+  },
+  {
+    "control_id": "IA-4",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Ensure that user identities are unique and that user identities are managed according to established security policies and that user identities are managed according to established security policies."
+  },
+  {
+    "control_id": "IA-5",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Ensure that user identities are unique and that user identities are managed according to established security policies and that user identities are managed according to established security policies."
+  },
+  {
+    "control_id": "IA-8",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Ensure that user identities are unique and that user identities are managed according to established security policies and that user identities are managed according to established security policies."
+  },
+  {
+    "control_id": "MA-3",
+    "control_title": "Media Protection",
+    "control_desc": "Protect media containing sensitive information from unauthorized access and modification."
+  },
+  {
+    "control_id": "MA-5",
+    "control_title": "Media Protection",
+    "control_desc": "Protect media containing sensitive information from unauthorized access and modification and ensure that media containing sensitive information are protected from unauthorized access and modification."
+  },
+  {
+    "control_id": "PE-2",
+    "control_title": "Physical and Environmental Protection",
+    "control_desc": "Ensure that physical and environmental controls are implemented to protect system components from unauthorized access and modification."
+  },
+  {
+    "control_id": "PL-4",
+    "control_title": "Planning and Assessment",
+    "control_desc": "Ensure that plans and assessments are developed and maintained to support the security of system components."
+  },
+  {
+    "control_id": "PS-2",
+    "control_title": "Personnel Security",
+    "control_desc": "Ensure that personnel security policies and procedures are developed and maintained to support the security of system components."
+  },
+  {
+    "control_id": "PS-4",
+    "control_title": "Personnel Security",
+    "control_desc": "Ensure that personnel security policies and procedures are developed and maintained to support the security of system components and that personnel security policies and procedures are developed and maintained to support the security of system components."
+  },
+  {
+    "control_id": "PS-5",
+    "control_title": "Personnel Security",
+    "control_desc": "Ensure that personnel security policies and procedures are developed and maintained to support the security of system components and that personnel security policies and procedures are developed and maintained to support the security of system components."
+  },
+  {
+    "control_id": "PS-7",
+    "control_title": "Personnel Security",
+    "control_desc": "Ensure that personnel security policies and procedures are developed and maintained to support the security of system components and that personnel security policies and procedures are developed and maintained to support the security of system components."
+  },
+  {
+    "control_id": "PT-2",
+    "control_title": "Protection from Unauthorized Modification or Disclosure",
+    "control_desc": "Ensure that protection measures are implemented to prevent unauthorized modification or disclosure of system components."
+  },
+  {
+    "control_id": "PT-3",
+    "control_title": "Protection from Unauthorized Modification or Disclosure",
+    "control_desc": "Ensure that protection measures are implemented to prevent unauthorized modification or disclosure of system components and that protection measures are implemented to prevent unauthorized modification or disclosure of system components."
+  },
+  {
+    "control_id": "SC-7",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Ensure that system and communications protection measures are implemented to prevent unauthorized access and modification of system components."
+  },
+  {
+    "control_id": "SC-12",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Ensure that system and communications protection measures are implemented to prevent unauthorized access and modification of system components and that system and communications protection measures are implemented to prevent unauthorized access and modification of system components."
+  },
+  {
+    "control_id": "SC-13",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Ensure that system and communications protection measures are implemented to prevent unauthorized access and modification of system components and that system and communications protection measures are implemented to prevent unauthorized access and modification of system components."
+  },
+  {
+    "control_id": "SC-37",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Ensure that system and communications protection measures are implemented to prevent unauthorized access and modification of system components and that system and communications protection measures are implemented to prevent unauthorized access and modification of system components."
+  },
+  {
+    "control_id": "AC-11",
+    "control_title": "Inactivity Logout",
+    "control_desc": "Require that users log out when [Assignment: organization-defined time period of expected inactivity or description of when to log out]."
+  },
+  {
+    "control_id": "AU-2",
+    "control_title": "Account Management Audit Records",
+    "control_desc": "Automatically audit account creation, modification, enabling, disabling, and removal actions."
+  },
+  {
+    "control_id": "AU-6",
+    "control_title": "Account Management Audit Review",
+    "control_desc": "Account management audit records are defined in accordance with AU-2 and reviewed, analyzed, and reported in accordance with AU-6."
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Dynamic Privilege Management",
+    "control_desc": "Implement [Assignment: organization-defined dynamic privilege management capabilities]."
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Dynamic Account Management",
+    "control_desc": "Create, activate, manage, and deactivate system accounts dynamically."
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies."
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "ACCESS ENFORCEMENT | RESTRICTED ACCESS TO PRIVILEGED FUNCTIONS",
+    "control_desc": "[Withdrawn: Incorporated into AC-6.]"
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AC-19",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AC-20",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AC-21",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AC-22",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AC-24",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AC-25",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AT-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AT-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "AU-9",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "CA-9",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "CM-5",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "CM-11",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "IA-5",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "IA-6",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "IA-7",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "IA-11",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "MA-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "MA-4",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "MA-5",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "MP-4",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "PM-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "PS-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "PT-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "PT-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SA-17",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SC-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SC-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SC-4",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SC-12",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SC-13",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SC-28",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SC-31",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SC-34",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SI-4",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "SI-8",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion."
+  },
+  {
+    "control_id": "CP-9",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Enforce dual authorization for [Assignment: organization-defined privileged commands and/or other organization-defined actions]."
+  },
+  {
+    "control_id": "MP-6",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Dual authorization mechanisms reduce risk related to insider threats."
+  }
+]

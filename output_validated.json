@@ -1,0 +1,779 @@
+[
+  {
+    "control_id": "AC-1",
+    "control_title": "Develop, document, and disseminate access control policy and procedures",
+    "control_desc": "Develop, document, and disseminate to organization-defined personnel or roles, organization-level, mission/business process-level, or system-level access control policy and procedures.",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 45,
+      "reason": "The source text explicitly states 'Develop, document, and disseminate to [Assignment: organization-defined personnel or roles]: [Selection (one or more): Organization-level; Mission/business process-level; System-level] access control policy that' which matches the description provided."
+    }
+  },
+  {
+    "control_id": "AC-2",
+    "control_title": "Account Management",
+    "control_desc": "Define and document account types, assign managers, specify user access, require approvals for account creation, manage account lifecycle, authorize access based on criteria, review compliance, change shared account authenticators, align with termination processes.",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 46,
+      "reason": "The source text includes all elements of the claimed control, such as defining and documenting account types, assigning managers, specifying user access, requiring approvals for account creation, managing the account lifecycle, authorizing access based on criteria, reviewing compliance, changing shared account authenticators, and aligning with termination processes."
+    }
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Account Management",
+    "control_desc": "Establish and maintain accountability for system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 135,
+      "reason": "The source text does not mention 'Account Management' or establish and maintain accountability for system components under a single control title like AC-3."
+    }
+  },
+  {
+    "control_id": "AC-5",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that only authorized users have access to organizational resources.",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 46,
+      "reason": "The source text covers all aspects of managing user accounts as described in the Claimed Control, including defining and documenting account types, assigning account managers, specifying authorized users, creating and disabling accounts according to policies, monitoring account usage, and aligning account management with personnel processes."
+    }
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 46,
+      "reason": "The source text does not mention the principle of least privilege directly. Instead, it focuses on defining and documenting account types, assigning account managers, specifying access authorizations, and monitoring account usage."
+    }
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege and that access is reviewed periodically.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 46,
+      "reason": "The Claimed Control (AC-17) focuses on managing user accounts to ensure least privilege and periodic review, which aligns partially with some aspects of AC-2 but does not cover all its elements. Specifically, it lacks details on defining and documenting account types, assigning account managers, specifying access authorizations, creating and disabling accounts according to defined policies, monitoring account usage, notifying relevant parties upon changes, and aligning account management with personnel termination processes."
+    }
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege and that access is reviewed periodically and that access is granted based on the principle of least privilege and that access is reviewed periodically.",
+    "validation": {
+      "status": "ERROR",
+      "reason": "Unterminated string starting at: line 3 column 15 (char 39)"
+    }
+  },
+  {
+    "control_id": "AC-20",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege and that access is reviewed periodically and that access is granted based on the principle of least privilege and that access is reviewed periodically.",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 46,
+      "reason": "The source text covers multiple aspects of account management, including defining and documenting account types, assigning account managers, specifying access authorizations, requiring approvals for creating accounts, monitoring account usage, reviewing accounts for compliance, and aligning account management with personnel termination and transfer processes. These elements support the principle of least privilege and periodic review as stated in the claim."
+    }
+  },
+  {
+    "control_id": "AC-24",
+    "control_title": "Account Management",
+    "control_desc": "Manage user accounts to ensure that access is granted based on the principle of least privilege and that access is reviewed periodically and that access is granted based on the principle of least privilege and that access is reviewed periodically.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 46,
+      "reason": "The claimed control 'Account Management' does not align with the detailed set of actions described in the source text under AC-2. The source text covers multiple aspects of account management beyond just granting access based on the principle of least privilege and periodic review."
+    }
+  },
+  {
+    "control_id": "AU-2",
+    "control_title": "Audit and Accountability",
+    "control_desc": "Maintain audit records for system components.",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 105,
+      "reason": "The source text discusses 'Audit Record Generation' under the context of maintaining audit records for system components, specifically mentioning 'AU-2a', 'AU-2c', and 'AU-2d'. This aligns with the description of the Claimed Control 'Maintain audit records for system components.'"
+    }
+  },
+  {
+    "control_id": "AU-12",
+    "control_title": "Audit and Accountability",
+    "control_desc": "Maintain audit records for system components and ensure that audit records are protected from unauthorized modification.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 374,
+      "reason": "The claimed control AU-12 does not appear directly in the source text. While several controls discuss auditing capabilities, none specifically mention maintaining audit records for system components and protecting them from unauthorized modification as described in AU-12."
+    }
+  },
+  {
+    "control_id": "CM-5",
+    "control_title": "Configuration Management",
+    "control_desc": "Ensure that system components are configured according to established security policies.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 140,
+      "reason": "The source text does not mention 'Configuration Management' or any related controls directly. It focuses on software installation policies, information location, and data action mapping."
+    }
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Ensure that user identities are unique and that user identities are managed according to established security policies.",
+    "validation": {
+      "status": "ERROR",
+      "reason": "list index out of range"
+    }
+  },
+  {
+    "control_id": "IA-4",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Ensure that user identities are unique and that user identities are managed according to established security policies and that user identities are managed according to established security policies.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 174,
+      "reason": "The source text does not directly support the description of the claimed control (IA-4). While the source text discusses aspects related to identity proofing and validation, it focuses more on specific steps like requiring supervisor authorization, presenting identity evidence, and conducting in-person validation. It does not cover ensuring uniqueness of user identities nor managing them according to established security policies."
+    }
+  },
+  {
+    "control_id": "IA-5",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Ensure that user identities are unique and that user identities are managed according to established security policies and that user identities are managed according to established security policies.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 174,
+      "reason": "The source text does not specifically mention 'Identity and Access Management' nor does it cover ensuring that user identities are unique. Instead, it focuses on aspects like supervisor authorization, identity evidence, validation, and in-person confirmation."
+    }
+  },
+  {
+    "control_id": "IA-8",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Ensure that user identities are unique and that user identities are managed according to established security policies and that user identities are managed according to established security policies.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 174,
+      "reason": "The claimed control IA-8 focuses on ensuring unique user identities and managing them according to established security policies. However, the source text does not specifically mention these aspects. Instead, it discusses requirements related to identity proofing, including validation, verification, and in-person confirmation."
+    }
+  },
+  {
+    "control_id": "MA-3",
+    "control_title": "Media Protection",
+    "control_desc": "Protect media containing sensitive information from unauthorized access and modification.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 199,
+      "reason": "The claimed control 'Media Protection' does not match any explicit control title or description in the provided source text. The closest related controls are MP-2 (MEDIA ACCESS) and MP-3 (MEDIA MARKING), which focus on controlling access and marking rather than protecting against unauthorized access and modification."
+    }
+  },
+  {
+    "control_id": "MA-5",
+    "control_title": "Media Protection",
+    "control_desc": "Protect media containing sensitive information from unauthorized access and modification and ensure that media containing sensitive information are protected from unauthorized access and modification.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 199,
+      "reason": "The claimed control 'Media Protection' does not match any specific control mentioned in the source text. The closest related controls are MP-2 (MEDIA ACCESS) and MP-3 (MEDIA MARKING), but they do not cover all aspects of protecting media from unauthorized access and modification as described in the claim."
+    }
+  },
+  {
+    "control_id": "PE-2",
+    "control_title": "Physical and Environmental Protection",
+    "control_desc": "Ensure that physical and environmental controls are implemented to protect system components from unauthorized access and modification.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 206,
+      "reason": "The claimed control 'PE-2' focuses on implementing physical and environmental controls to protect system components from unauthorized access and modification, which aligns with the broader context of 'PE-1'. However, 'PE-2' is not explicitly mentioned or defined in the source text."
+    }
+  },
+  {
+    "control_id": "PL-4",
+    "control_title": "Planning and Assessment",
+    "control_desc": "Ensure that plans and assessments are developed and maintained to support the security of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 278,
+      "reason": "The source text does not mention 'PL-4' or any control related to 'Planning and Assessment'. Instead, it discusses controls related to supply chain risk management, system development lifecycle, and technology refresh."
+    }
+  },
+  {
+    "control_id": "PS-2",
+    "control_title": "Personnel Security",
+    "control_desc": "Ensure that personnel security policies and procedures are developed and maintained to support the security of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 249,
+      "reason": "The claimed control refers to 'Personnel Security' which is already covered under PS-1, and there's no explicit mention of developing and maintaining policies and procedures specifically for supporting the security of system components."
+    }
+  },
+  {
+    "control_id": "PS-4",
+    "control_title": "Personnel Security",
+    "control_desc": "Ensure that personnel security policies and procedures are developed and maintained to support the security of system components and that personnel security policies and procedures are developed and maintained to support the security of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 249,
+      "reason": "The claimed control 'PS-4' refers to ensuring that personnel security policies and procedures are developed and maintained to support the security of system components. However, the source text describes developing, documenting, and disseminating personnel security policies and procedures at different levels (organization-level, mission/business process-level, system-level), which goes beyond simply supporting the security of system components."
+    }
+  },
+  {
+    "control_id": "PS-5",
+    "control_title": "Personnel Security",
+    "control_desc": "Ensure that personnel security policies and procedures are developed and maintained to support the security of system components and that personnel security policies and procedures are developed and maintained to support the security of system components.",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 249,
+      "reason": "The source text describes developing, documenting, and disseminating personnel security policies and procedures which directly supports the security of system components. This aligns with the description of the claimed control."
+    }
+  },
+  {
+    "control_id": "PS-7",
+    "control_title": "Personnel Security",
+    "control_desc": "Ensure that personnel security policies and procedures are developed and maintained to support the security of system components and that personnel security policies and procedures are developed and maintained to support the security of system components.",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 249,
+      "reason": "The source text describes developing, documenting, and disseminating personnel security policies and procedures which directly supports the security of system components. This aligns with the description of the claimed control."
+    }
+  },
+  {
+    "control_id": "PT-2",
+    "control_title": "Protection from Unauthorized Modification or Disclosure",
+    "control_desc": "Ensure that protection measures are implemented to prevent unauthorized modification or disclosure of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 358,
+      "reason": "The source text does not directly support the 'Protection from Unauthorized Modification or Disclosure' control as described. The source text focuses specifically on hardware-based protection for firmware components and the procedures for disabling and re-enabling write-protection."
+    }
+  },
+  {
+    "control_id": "PT-3",
+    "control_title": "Protection from Unauthorized Modification or Disclosure",
+    "control_desc": "Ensure that protection measures are implemented to prevent unauthorized modification or disclosure of system components and that protection measures are implemented to prevent unauthorized modification or disclosure of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 91,
+      "reason": "The claimed control 'PT-3' does not exist in the provided source text. There is no mention of 'Protection from Unauthorized Modification or Disclosure'. Instead, the text discusses training records and contacts with security groups."
+    }
+  },
+  {
+    "control_id": "SC-7",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Ensure that system and communications protection measures are implemented to prevent unauthorized access and modification of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 343,
+      "reason": "The source text does not contain any explicit reference to 'System and Communications Protection' (SC-7). The closest related controls mentioned are SC-30, SC-44, and others like SC-26 which discuss decoys and SC-28 which discusses protection of information at rest."
+    }
+  },
+  {
+    "control_id": "SC-12",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Ensure that system and communications protection measures are implemented to prevent unauthorized access and modification of system components and that system and communications protection measures are implemented to prevent unauthorized access and modification of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 343,
+      "reason": "The claimed control 'System and Communications Protection' (ID: SC-12) is not mentioned or referenced in the provided source text. The closest related controls discussed are SC-26 (DECOYS), SC-27 (PLATFORM-INDEPENDENT APPLICATIONS), and SC-28 (PROTECTION OF INFORMATION AT REST). These controls do not cover the broad scope of system and communication protection as described in the claim."
+    }
+  },
+  {
+    "control_id": "SC-13",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Ensure that system and communications protection measures are implemented to prevent unauthorized access and modification of system components and that system and communications protection measures are implemented to prevent unauthorized access and modification of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 343,
+      "reason": "The source text does not contain any reference to 'System and Communications Protection' controls like SC-13. It discusses various security controls including decoys, platform-independent applications, and protection of information at rest, but none match the description of SC-13."
+    }
+  },
+  {
+    "control_id": "SC-37",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Ensure that system and communications protection measures are implemented to prevent unauthorized access and modification of system components and that system and communications protection measures are implemented to prevent unauthorized access and modification of system components.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 343,
+      "reason": "The claimed control 'System and Communications Protection' (ID: SC-37) is not mentioned in the source text. There are no controls related to system and communication protection measures as described in the claim."
+    }
+  },
+  {
+    "control_id": "AC-11",
+    "control_title": "Inactivity Logout",
+    "control_desc": "Require that users log out when [Assignment: organization-defined time period of expected inactivity or description of when to log out].",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 71,
+      "reason": "The claimed control 'Inactivity Logout' (AC-11) is not found in the provided source text. It appears to be unrelated to the content discussed in AC-14 about permitted actions without identification or authentication."
+    }
+  },
+  {
+    "control_id": "AU-2",
+    "control_title": "Account Management Audit Records",
+    "control_desc": "Automatically audit account creation, modification, enabling, disabling, and removal actions.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 374,
+      "reason": "The claimed control 'AU-2' refers to 'Account Management Audit Records', but the source text does not mention anything related to auditing account management activities such as creation, modification, enabling, disabling, or removal."
+    }
+  },
+  {
+    "control_id": "AU-6",
+    "control_title": "Account Management Audit Review",
+    "control_desc": "Account management audit records are defined in accordance with AU-2 and reviewed, analyzed, and reported in accordance with AU-6.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 101,
+      "reason": "The source text does not mention 'Account Management Audit Review' or any related controls under the title or description matching the claimed control ID AU-6."
+    }
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Dynamic Privilege Management",
+    "control_desc": "Implement [Assignment: organization-defined dynamic privilege management capabilities].",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 49,
+      "reason": "The source text does not mention 'Dynamic Privilege Management' directly. The closest relevant control is (8) ACCOUNT MANAGEMENT | DYNAMIC ACCOUNT MANAGEMENT, but it focuses specifically on account management rather than general privilege management."
+    }
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Dynamic Account Management",
+    "control_desc": "Create, activate, manage, and deactivate system accounts dynamically.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 456,
+      "reason": "The source text does not contain an explicit reference to 'Dynamic Account Management' as a separate control. It mentions 'AC-2(6) DYNAMIC PRIVILEGE MANAGEMENT', which may relate but is not exactly the same as the claim."
+    }
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 53,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' as a standalone control; instead, it discusses related controls like RBAC, revocation of access authorizations, controlled release, and audited overrides of access control mechanisms."
+    }
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "ACCESS ENFORCEMENT | RESTRICTED ACCESS TO PRIVILEGED FUNCTIONS",
+    "control_desc": "[Withdrawn: Incorporated into AC-6.]",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 284,
+      "reason": "The claimed control 'AC-6' does not appear in the provided source text. It seems to have been withdrawn or incorporated into another control."
+    }
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The claimed control 'AC-16' about ACCESS ENFORCEMENT is not explicitly mentioned or referenced in the provided source text. It appears to be inferred from discussions around AC-3, which does not directly address access enforcement."
+    }
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' or any direct reference to AC-17. Instead, it discusses system monitoring and integration of intrusion detection tools."
+    }
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The claimed control AC-18 'ACCESS ENFORCEMENT' is not explicitly mentioned or referenced in the provided source text. It appears to be inferred from the context of AC-3 discussions rather than being directly addressed."
+    }
+  },
+  {
+    "control_id": "AC-19",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls."
+    }
+  },
+  {
+    "control_id": "AC-20",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' or any control similar to AC-20. It discusses various aspects of system monitoring and intrusion detection."
+    }
+  },
+  {
+    "control_id": "AC-21",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "'ACCESS ENFORCEMENT' is not directly mentioned or implied in the provided source text."
+    }
+  },
+  {
+    "control_id": "AC-22",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls."
+    }
+  },
+  {
+    "control_id": "AC-24",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls. The closest relevant discussions are around System Monitoring and Intrusion Detection Systems which do not align with the description of AC-24."
+    }
+  },
+  {
+    "control_id": "AC-25",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The claimed control AC-25 'ACCESS ENFORCEMENT' is not explicitly mentioned or referenced in the provided source text. It appears to be an inference drawn from discussions around AC-3 rather than being directly addressed."
+    }
+  },
+  {
+    "control_id": "AT-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls. The closest relevant discussions are around System Monitoring and Intrusion Detection Systems which do not align with the description of AT-2."
+    }
+  },
+  {
+    "control_id": "AT-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' or any control directly related to it. The closest relevant content pertains to System Monitoring and Intrusion Detection Systems under the SYSTEM MONITORING category."
+    }
+  },
+  {
+    "control_id": "AU-9",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls. The closest relevant discussions are around System Monitoring and Intrusion Detection Systems."
+    }
+  },
+  {
+    "control_id": "CA-9",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of CA-9. It discusses various aspects of system monitoring and intrusion detection but does not align with the description of CA-9 which focuses on enforcing access controls."
+    }
+  },
+  {
+    "control_id": "CM-5",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The Claimed Control 'CM-5' titled 'ACCESS ENFORCEMENT' is not mentioned or directly referenced in the provided source text. It appears to be an inference drawn from discussions around Access Control (AC), which is not specifically addressed here."
+    }
+  },
+  {
+    "control_id": "CM-11",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of CM-11. It discusses various aspects of system monitoring and integration of intrusion detection tools, which do not align with the description of CM-11."
+    }
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention anything related to 'ACCESS ENFORCEMENT' directly."
+    }
+  },
+  {
+    "control_id": "IA-5",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls. It focuses on system monitoring and intrusion detection rather than access enforcement."
+    }
+  },
+  {
+    "control_id": "IA-6",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls. It focuses on system monitoring and intrusion detection rather than access enforcement."
+    }
+  },
+  {
+    "control_id": "IA-7",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the controls listed."
+    }
+  },
+  {
+    "control_id": "IA-11",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention anything related to 'ACCESS ENFORCEMENT' which is required by the claimed control IA-11."
+    }
+  },
+  {
+    "control_id": "MA-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the controls listed."
+    }
+  },
+  {
+    "control_id": "MA-4",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the controls listed. It focuses on system monitoring and integration aspects rather than access enforcement."
+    }
+  },
+  {
+    "control_id": "MA-5",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the controls listed. It focuses on system monitoring and integration aspects rather than access enforcement."
+    }
+  },
+  {
+    "control_id": "MP-4",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls. It focuses on system monitoring and integration aspects rather than access enforcement."
+    }
+  },
+  {
+    "control_id": "PM-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'PM-2' or an explicit control titled 'ACCESS ENFORCEMENT'. It discusses various aspects of system monitoring and integration of intrusion detection tools, which are related to security but do not directly correspond to the described 'Access Enforcement' control."
+    }
+  },
+  {
+    "control_id": "PS-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'PS-3' or 'ACCESS ENFORCEMENT'. It discusses various aspects of system monitoring and intrusion detection, which are related to AC-3, but do not directly address access enforcement."
+    }
+  },
+  {
+    "control_id": "PT-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 91,
+      "reason": "The claimed control 'PT-2' titled 'ACCESS ENFORCEMENT' is not mentioned or referenced in the provided source text. The closest related controls are AT-4, AT-5, and AT-6 which deal with training records, contacts with security groups, and training feedback respectively."
+    }
+  },
+  {
+    "control_id": "PT-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 73,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' or any related controls under the title PT-3. The closest relevant controls mentioned are those related to Security and Privacy Attributes."
+    }
+  },
+  {
+    "control_id": "SA-17",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The claimed control 'SA-17' does not appear in the source text and there is no explicit mention of access enforcement in the context of system monitoring or related controls."
+    }
+  },
+  {
+    "control_id": "SC-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the controls listed. It focuses on System Monitoring and Intrusion Detection Systems rather than Access Enforcement."
+    }
+  },
+  {
+    "control_id": "SC-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "ERROR",
+      "reason": "list index out of range"
+    }
+  },
+  {
+    "control_id": "SC-4",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the claimed control SC-4."
+    }
+  },
+  {
+    "control_id": "SC-12",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the controls listed. It focuses on system monitoring and integration aspects rather than access enforcement."
+    }
+  },
+  {
+    "control_id": "SC-13",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the controls listed. It focuses on system monitoring and integration aspects rather than access enforcement."
+    }
+  },
+  {
+    "control_id": "SC-28",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' directly or indirectly under the context of the discussed controls. It focuses on system monitoring, intrusion detection, and communication traffic monitoring rather than access enforcement."
+    }
+  },
+  {
+    "control_id": "SC-31",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The claim 'ACCESS ENFORCEMENT' does not appear in the source text nor is it implied through the context."
+    }
+  },
+  {
+    "control_id": "SC-34",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 365,
+      "reason": "The claimed control 'ACCESS ENFORCEMENT' (ID: SC-34) is not mentioned or directly referenced in the source text. The closest relevant content discusses System Monitoring and Intrusion Detection Systems rather than Access Enforcement."
+    }
+  },
+  {
+    "control_id": "SI-4",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 73,
+      "reason": "The source text does not contain any explicit reference to 'ACCESS ENFORCEMENT' or controls related to enforcing access. While some discussions touch upon aspects like maintaining attribute associations which could indirectly relate to access enforcement, there is no direct mention of 'SI-4'."
+    }
+  },
+  {
+    "control_id": "SI-8",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Not explicitly stated but implied as part of the AC-3 discussion.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 73,
+      "reason": "The source text does not mention 'ACCESS ENFORCEMENT' or any related controls under the title SI-8. The closest relevant controls mentioned are AC-3, which discusses access enforcement indirectly."
+    }
+  },
+  {
+    "control_id": "CP-9",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Enforce dual authorization for [Assignment: organization-defined privileged commands and/or other organization-defined actions].",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 46,
+      "reason": "The source text does not mention anything related to dual authorization for privileged commands or other actions. The focus of AC-2 is on account management practices rather than access enforcement mechanisms like dual authorization."
+    }
+  },
+  {
+    "control_id": "MP-6",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Dual authorization mechanisms reduce risk related to insider threats.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 181,
+      "reason": "The source text does not mention dual authorization mechanisms or controls related to access enforcement specifically. The closest relevant content pertains to coordinating incident handling for insider threats but does not address access enforcement."
+    }
+  }
+]

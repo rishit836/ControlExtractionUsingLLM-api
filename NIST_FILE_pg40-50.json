@@ -1,0 +1,77 @@
+[
+  {
+    "control_id": "AC-1",
+    "control_title": "ACCESS CONTROL POLICY AND PROCEDURES",
+    "control_desc": "Develop, document, and disseminate to [Assignment: organization-defined personnel or roles]: (a) [Selection (one or more): Organization-level; Mission/business process-level; System-level] access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and (b) is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and (2) procedures to facilitate the implementation of the access control policy and the associated access controls; (3) designate an [Assignment: organization-defined official] to manage the development, documentation, and dissemination of the access control policy and procedures; and (4) review and update the current access control: (a) policy [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]; and (b) procedures [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]."
+  },
+  {
+    "control_id": "AC-2",
+    "control_title": "ACCOUNT MANAGEMENT",
+    "control_desc": "Define and document the types of accounts allowed and specifically prohibited for use within the system; Assign account managers; Require [Assignment: organization-defined prerequisites and criteria] for group and role membership; Specify: 1. Authorized users of the system; 2. Group and role membership; and 3. Access authorizations (i.e., privileges) and [Assignment: organization-defined attributes (as required)] for each account; Require approvals by [Assignment: organization-defined personnel or roles] for requests to create accounts; Create, enable, modify, disable, and remove accounts in accordance with [Assignment: organization-defined policy, procedures, prerequisites, and criteria]; Monitor the use of accounts; Notify account managers and [Assignment: organization-defined personnel or roles] within: 1. [Assignment: organization-defined time period] when accounts are no longer required; 2. [Assignment: organization-defined time period] when users are terminated or transferred; and 3. [Assignment: organization-defined time period] when system usage or need-to-know changes for an individual; Authorize access to the system based on: 1. A valid access authorization; 2. Intended system usage; and 3. [Assignment: organization-defined attributes (as required)]; Review accounts for compliance with account management requirements [Assignment: organization-defined frequency]; Establish and implement a process for changing shared or group account authenticators (if deployed) when individuals are removed from the group; and Align account management processes with personnel termination and transfer processes."
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Account Management",
+    "control_desc": "Support the management of system accounts using [Assignment: organization-defined automated mechanisms]."
+  },
+  {
+    "control_id": "AC-5",
+    "control_title": "Account Management",
+    "control_desc": "Automatically [Selection: remove; disable] temporary and emergency accounts after [Assignment: organization-defined time period for each type of account]."
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Account Management",
+    "control_desc": "Disable accounts within [Assignment: organization-defined time period] when the accounts:"
+  },
+  {
+    "control_id": "AC-1",
+    "control_title": "ACCOUNT MANAGEMENT | AUTOMATED AUDIT ACTIONS",
+    "control_desc": "Automatically audit account creation, modification, enabling, disabling, and removal actions."
+  },
+  {
+    "control_id": "AC-11",
+    "control_title": "ACCOUNT MANAGEMENT | INACTIVITY LOGOUT",
+    "control_desc": "Require that users log out when [Assignment: organization-defined time period of expected inactivity or description of when to log out]."
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "ACCOUNT MANAGEMENT | DYNAMIC PRIVILEGE MANAGEMENT",
+    "control_desc": "Implement [Assignment: organization-defined dynamic privilege management capabilities]."
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "ACCOUNT MANAGEMENT | PRIVILEGED USER ACCOUNTS",
+    "control_desc": "(a) Establish and administer privileged user accounts in accordance with [Selection: a role-based access scheme; an attribute-based access scheme]; (b) Monitor privileged role or attribute assignments; (c) Monitor changes to roles or attributes; and (d) Revoke access when privileged role or attribute assignments are no longer appropriate."
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Dynamic Account Management",
+    "control_desc": "Create, activate, manage, and deactivate [Assignment: organization-defined system accounts] dynamically."
+  },
+  {
+    "control_id": "None",
+    "control_title": "Restrictions on Use of Shared and Group Accounts",
+    "control_desc": "Only permit the use of shared and group accounts that meet [Assignment: organization-defined conditions for establishing shared and group accounts]."
+  },
+  {
+    "control_id": "None",
+    "control_title": "Usage Conditions",
+    "control_desc": "Enforce [Assignment: organization-defined circumstances and/or usage conditions] for [Assignment: organization-defined system accounts]."
+  },
+  {
+    "control_id": "None",
+    "control_title": "Account Monitoring for Atypical Usage",
+    "control_desc": "(a) Monitor system accounts for [Assignment: organization-defined atypical usage]; and (b) Report atypical usage of system accounts to [Assignment: organization-defined personnel or roles]."
+  },
+  {
+    "control_id": "AC-2",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies."
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Restrict access to privileged functions through dual authorization mechanisms."
+  }
+]

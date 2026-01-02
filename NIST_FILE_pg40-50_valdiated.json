@@ -1,0 +1,102 @@
+[
+  {
+    "control_id": "AC-1",
+    "control_title": "ACCESS CONTROL POLICY AND PROCEDURES",
+    "control_desc": "Develop, document, and disseminate to [Assignment: organization-defined personnel or roles]: (a) [Selection (one or more): Organization-level; Mission/business process-level; System-level] access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and (b) is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and (2) procedures to facilitate the implementation of the access control policy and the associated access controls; (3) designate an [Assignment: organization-defined official] to manage the development, documentation, and dissemination of the access control policy and procedures; and (4) review and update the current access control: (a) policy [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]; and (b) procedures [Assignment: organization-defined frequency] and following [Assignment: organization-defined events].",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 45,
+      "reason": "The claimed control matches the description provided in the source text exactly."
+    }
+  },
+  {
+    "control_id": "AC-2",
+    "control_title": "ACCOUNT MANAGEMENT",
+    "control_desc": "Define and document the types of accounts allowed and specifically prohibited for use within the system; Assign account managers; Require [Assignment: organization-defined prerequisites and criteria] for group and role membership; Specify: 1. Authorized users of the system; 2. Group and role membership; and 3. Access authorizations (i.e., privileges) and [Assignment: organization-defined attributes (as required)] for each account; Require approvals by [Assignment: organization-defined personnel or roles] for requests to create accounts; Create, enable, modify, disable, and remove accounts in accordance with [Assignment: organization-defined policy, procedures, prerequisites, and criteria]; Monitor the use of accounts; Notify account managers and [Assignment: organization-defined personnel or roles] within: 1. [Assignment: organization-defined time period] when accounts are no longer required; 2. [Assignment: organization-defined time period] when users are terminated or transferred; and 3. [Assignment: organization-defined time period] when system usage or need-to-know changes for an individual; Authorize access to the system based on: 1. A valid access authorization; 2. Intended system usage; and 3. [Assignment: organization-defined attributes (as required)]; Review accounts for compliance with account management requirements [Assignment: organization-defined frequency]; Establish and implement a process for changing shared or group account authenticators (if deployed) when individuals are removed from the group; and Align account management processes with personnel termination and transfer processes.",
+    "validation": {
+      "status": "PASS",
+      "verified_on_page": 46,
+      "reason": "The Claimed Control matches the content described in Chapter Three of NIST SP 800-53 Rev. 5, particularly sections related to Account Management (AC-2). All elements listed in the Claimed Control are present in the Source Text."
+    }
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Account Management",
+    "control_desc": "Support the management of system accounts using [Assignment: organization-defined automated mechanisms].",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 46,
+      "reason": "The source text does not mention anything related to'supporting' account management through automated mechanisms as specified in the Claimed Control AC-3. The source text focuses on manual processes and requirements rather than automation."
+    }
+  },
+  {
+    "control_id": "AC-5",
+    "control_title": "Account Management",
+    "control_desc": "Automatically [Selection: remove; disable] temporary and emergency accounts after [Assignment: organization-defined time period for each type of account].",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 456,
+      "reason": "The source text does not mention an 'Account Management' control labeled as 'AC-5'. The closest related controls are AC-2 and its sub-controls such as AC-2(1), which deals with automated system account management, but it does not specify automatic removal or disabling of temporary and emergency accounts within an organization-defined timeframe."
+    }
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Account Management",
+    "control_desc": "Disable accounts within [Assignment: organization-defined time period] when the accounts:",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 46,
+      "reason": "The source text does not mention disabling accounts within a specified time period as part of its account management practices."
+    }
+  },
+  {
+    "control_id": "AC-1",
+    "control_title": "ACCOUNT MANAGEMENT | AUTOMATED AUDIT ACTIONS",
+    "control_desc": "Automatically audit account creation, modification, enabling, disabling, and removal actions.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 456,
+      "reason": "The source text does not mention 'Automated Audit Actions' as part of the 'Account Management' control. It lists 'AC-2(4) AUTOMATED AUDIT ACTIONS', which pertains to auditing actions but under a different control number."
+    }
+  },
+  {
+    "control_id": "AC-11",
+    "control_title": "ACCOUNT MANAGEMENT | INACTIVITY LOGOUT",
+    "control_desc": "Require that users log out when [Assignment: organization-defined time period of expected inactivity or description of when to log out].",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 71,
+      "reason": "The claimed control 'Account Management | Inactivity Logout' (AC-11) is not mentioned in the provided source text. The source text discusses controls related to supervision and review, permitted actions without identification or authentication, automated marking, and security and privacy attributes. There is no reference to account management or inactivity logout."
+    }
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "ACCOUNT MANAGEMENT | DYNAMIC PRIVILEGE MANAGEMENT",
+    "control_desc": "Implement [Assignment: organization-defined dynamic privilege management capabilities].",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 49,
+      "reason": "The source text does not mention 'dynamic privilege management'. The closest relevant control is 'Dynamic Account Management' (AC-16), but it focuses on account creation, activation, management, and deactivation rather than privilege management."
+    }
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "ACCOUNT MANAGEMENT | PRIVILEGED USER ACCOUNTS",
+    "control_desc": "(a) Establish and administer privileged user accounts in accordance with [Selection: a role-based access scheme; an attribute-based access scheme]; (b) Monitor privileged role or attribute assignments; (c) Monitor changes to roles or attributes; and (d) Revoke access when privileged role or attribute assignments are no longer appropriate.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 49,
+      "reason": "The source text does not mention 'AC-16' directly nor discuss the establishment and administration of privileged user accounts according to either a role-based or attribute-based access scheme. The closest relevant controls mentioned are (8) ACCOUNT MANAGEMENT | DYNAMIC ACCOUNT MANAGEMENT and (11) ACCOUNT MANAGEMENT | SHARED AND GROUP ACCOUNT CREDENTIAL CHANGE, but they do not cover all aspects of the claimed control."
+    }
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Dynamic Account Management",
+    "control_desc": "Create, activate, manage, and deactivate [Assignment: organization-defined system accounts] dynamically.",
+    "validation": {
+      "status": "FAIL",
+      "verified_on_page": 46,
+      "reason": "The source text does not mention dynamic creation, activation, management, or deactivation of system accounts as part of its description of AC-2 Account Management. Instead, it focuses on defining and documenting account types, assigning account managers, specifying user access, and managing account lifecycles through predefined policies and procedures."
+    }
+  }
+]
