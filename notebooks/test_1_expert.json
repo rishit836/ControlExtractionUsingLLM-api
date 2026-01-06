@@ -1,0 +1,51 @@
+[
+  {
+    "Control_id": "PO.1",
+    "Control_name": "Define Security Requirements for Software Development",
+    "Control_type": "",
+    "Control_description": "Ensure that security requirements for software development are known at all times so that they can be taken into account throughout the SDLC and duplication of effort can be minimized because the requirements information can be collected once and shared. This includes requirements from internal sources (e.g., the organization\u2019s policies, business objectives, and risk management strategy) and external sources (e.g., applicable laws and regulations).",
+    "Deployment_points": "1. Establish a centralized repository for security requirements to ensure accessibility and minimize duplication of effort. 2. Regularly review and update security requirements based on internal policies, business objectives, and external regulations, at least annually or after significant incidents. 3. Communicate security requirements to all stakeholders involved in the SDLC to ensure they are integrated into the development process. 4. Train relevant personnel on the importance of security requirements and how to apply them throughout the SDLC. 5. Implement a feedback mechanism to capture changes in requirements from both internal and external sources."
+  },
+  {
+    "Control_id": "PO.1.1",
+    "Control_name": "Identify and document all security requirements for the organization\u2019s software development infrastructures and processes",
+    "Control_type": "",
+    "Control_description": "Identify and document all security requirements for the organization\u2019s software development infrastructures and processes, and maintain the requirements over time. Example 1: Define policies for securing software development infrastructures and their components, including development endpoints, throughout the SDLC and maintaining that security.",
+    "Deployment_points": "1. Conduct a comprehensive assessment of the current software development infrastructure to identify existing security requirements. 2. Document all identified security requirements and policies in a centralized format for easy access and updates. 3. Establish a process for regular reviews and updates of security requirements, especially after major incidents or changes in technology. 4. Ensure that all team members are trained on the documented security requirements and understand their importance. 5. Integrate security requirements into the SDLC phases to ensure they are considered at every stage of development."
+  },
+  {
+    "Control_id": "PO.1.2",
+    "Control_name": "Identify and document all security requirements for organization-developed software",
+    "Control_type": "",
+    "Control_description": "Identify and document all security requirements for organization-developed software to meet, and maintain the requirements over time. Example 1: Define policies that specify risk-based software architecture and design requirements, such as making code modular to facilitate code reuse and updates.",
+    "Deployment_points": "1. Define a set of risk-based security requirements tailored to the software architecture and design processes. 2. Document these requirements clearly and ensure they are accessible to all development teams. 3. Implement a verification process to ensure compliance with security requirements at key points in the SDLC. 4. Regularly review and update the requirements based on new vulnerabilities or changes in technology. 5. Train development teams on the importance of these requirements and how to implement them effectively."
+  },
+  {
+    "Control_id": "PO.1.3",
+    "Control_name": "Communicate requirements to all third parties",
+    "Control_type": "",
+    "Control_description": "Communicate requirements to all third parties who will provide commercial software components to the organization for reuse by the organization\u2019s own software.",
+    "Deployment_points": "1. Develop a core set of security requirements that must be communicated to all third-party vendors. 2. Include these requirements in all acquisition documents, contracts, and agreements with third parties. 3. Establish a process for verifying that third-party software complies with the organization\u2019s security requirements. 4. Require third parties to provide documentation of their security practices and compliance. 5. Conduct periodic reviews of third-party compliance and address any discrepancies promptly."
+  },
+  {
+    "Control_id": "PO.2",
+    "Control_name": "Implement Roles and Responsibilities",
+    "Control_type": "",
+    "Control_description": "Ensure that everyone inside and outside of the organization involved in the SDLC is prepared to perform their SDLC-related roles and responsibilities throughout the SDLC.",
+    "Deployment_points": "1. Define clear roles and responsibilities for all individuals involved in the SDLC, including security roles. 2. Regularly review and update these roles to reflect changes in the organization or technology. 3. Communicate roles and responsibilities to all team members and ensure they understand their specific duties. 4. Implement tools and processes to facilitate communication and collaboration among team members. 5. Conduct training sessions to ensure all personnel are prepared to fulfill their roles effectively."
+  },
+  {
+    "Control_id": "PO.2.1",
+    "Control_name": "Create new roles and alter responsibilities for existing roles",
+    "Control_type": "",
+    "Control_description": "Create new roles and alter responsibilities for existing roles as needed to encompass all parts of the SDLC. Periodically review and maintain the defined roles and responsibilities, updating them as needed.",
+    "Deployment_points": "1. Assess the current roles and responsibilities within the SDLC to identify gaps or areas for improvement. 2. Create new roles as necessary to address these gaps and ensure comprehensive coverage of the SDLC. 3. Document all roles and responsibilities clearly and make them accessible to all team members. 4. Conduct regular reviews of roles and responsibilities to ensure they remain relevant and effective. 5. Communicate any changes in roles to all affected individuals and provide training as needed."
+  },
+  {
+    "Control_id": "PO.2.2",
+    "Control_name": "Provide role-based training for all personnel",
+    "Control_type": "",
+    "Control_description": "Provide role-based training for all personnel with responsibilities that contribute to secure development. Periodically review personnel proficiency and role-based training, and update the training as needed.",
+    "Deployment_points": "1. Identify the specific training needs for each role involved in secure software development. 2. Develop or acquire training materials tailored to these needs and ensure they are accessible to all personnel. 3. Implement a training schedule that includes initial training and periodic refreshers. 4. Measure the effectiveness of training through assessments and feedback to identify areas for improvement. 5. Update training materials regularly to reflect changes in technology, security practices, and organizational policies."
+  }
+]

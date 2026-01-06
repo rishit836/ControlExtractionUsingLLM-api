@@ -1,0 +1,194 @@
+[
+    {
+        "control_id": "AC-1",
+        "control_title": "Develop, document, and disseminate access control policy and procedures",
+        "control_desc": "Develop, document, and disseminate to organization-defined personnel or roles, organization-level, mission/business process-level, or system-level access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance. Also, develop procedures to facilitate the implementation of the access control policy and the associated access controls.",
+        "page": 4
+    },
+    {
+        "control_id": "AC-2",
+        "control_title": "Account Management",
+        "control_desc": "Define and document the types of accounts allowed and specifically prohibited for use within the system; assign account managers; require prerequisites and criteria for group and role membership; specify authorized users, group and role membership, and access authorizations for each account; require approvals for account creation; create, enable, modify, disable, and remove accounts according to policy; monitor account use; notify relevant parties when accounts are no longer required, users are terminated or transferred, or system usage changes; authorize access based on valid authorization, intended usage, and attributes; review accounts for compliance; establish a process for changing shared or group account authenticators when individuals are removed; align account management with personnel termination and transfer processes.",
+        "page": 5
+    },
+    {
+        "control_id": "AC-3",
+        "control_title": "Account Management",
+        "control_desc": "Collaborate with the senior agency official for privacy to establish conditions for group and role membership.",
+        "page": 6
+    },
+    {
+        "control_id": "AC-5",
+        "control_title": "Account Management",
+        "control_desc": "Specify authorized users, group and role membership, and access authorizations for each account.",
+        "page": 6
+    },
+    {
+        "control_id": "AC-6",
+        "control_title": "Account Management",
+        "control_desc": "Create, adjust, or remove system accounts in accordance with organizational policies.",
+        "page": 6
+    },
+    {
+        "control_id": "AC-17",
+        "control_title": "Account Management",
+        "control_desc": "Consider system-related requirements and mission/business requirements in defining other system account attributes.",
+        "page": 6
+    },
+    {
+        "control_id": "AC-18",
+        "control_title": "Account Management",
+        "control_desc": "Ensure that former group members do not retain access to shared or group accounts by changing shared/group authenticators when members leave the group.",
+        "page": 6
+    },
+    {
+        "control_id": "AC-20",
+        "control_title": "Account Management",
+        "control_desc": "Some types of system accounts may require specialized training.",
+        "page": 6
+    },
+    {
+        "control_id": "AC-24",
+        "control_title": "Account Management",
+        "control_desc": "Support the management of system accounts using organization-defined automated mechanisms.",
+        "page": 6
+    },
+    {
+        "control_id": "AU-2",
+        "control_title": "Account Management",
+        "control_desc": "Notify account managers when an account is created, enabled, modified, disabled, or removed, or when users are terminated or transferred.",
+        "page": 6
+    },
+    {
+        "control_id": "AU-12",
+        "control_title": "Account Management",
+        "control_desc": "Monitor system account usage and report atypical system account usage.",
+        "page": 6
+    },
+    {
+        "control_id": "CM-5",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "IA-2",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "IA-4",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "IA-5",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "IA-8",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "MA-3",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "MA-5",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "PE-2",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "PL-4",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "PS-2",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "PS-4",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "PS-5",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "PS-7",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "PT-2",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "PT-3",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "SC-7",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "SC-12",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "SC-13",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "SC-37",
+        "control_title": "Account Management",
+        "control_desc": "Use automated mechanisms to create, enable, modify, disable, and remove accounts.",
+        "page": 6
+    },
+    {
+        "control_id": "AC-11",
+        "control_title": "Account Management | Inactivity Logout",
+        "control_desc": "Require that users log out when [Assignment: organization-defined time period of expected inactivity or description of when to log out].",
+        "page": 7
+    },
+    {
+        "control_id": "AC-16",
+        "control_title": "Account Management | Dynamic Privilege Management",
+        "control_desc": "Implement [Assignment: organization-defined dynamic privilege management capabilities].",
+        "page": 7
+    }
+]

@@ -1,0 +1,1358 @@
+[
+  {
+    "control_id": "AC-19",
+    "control_title": "Many Safeguards for Mobile Devices",
+    "control_desc": "Many safeguards for mobile devices are reflected in other controls.",
+    "page": 19
+  },
+  {
+    "control_id": "AC-20",
+    "control_title": "Organizational Systems",
+    "control_desc": "Organizational systems",
+    "page": 19
+  },
+  {
+    "control_id": "AC-20(3)",
+    "control_title": "AC-20(b)",
+    "control_desc": "AC-20(b)",
+    "page": 19
+  },
+  {
+    "control_id": "AT-1a.1",
+    "control_title": "Organization-Level; Mission/Business Process-Level; System-Level",
+    "control_desc": "Organization-level; Mission/business process-level; System-level",
+    "page": 19
+  },
+  {
+    "control_id": "AT-1",
+    "control_title": "Security Incidents or Breaches",
+    "control_desc": "Security incidents or breaches",
+    "page": 19
+  },
+  {
+    "control_id": "AT-2d.",
+    "control_title": "Security Incidents or Breaches",
+    "control_desc": "Security incidents or breaches",
+    "page": 19
+  },
+  {
+    "control_id": "AT-2",
+    "control_title": "Security Incidents or Breaches",
+    "control_desc": "Security incidents or breaches",
+    "page": 19
+  },
+  {
+    "control_id": "AT-3c.",
+    "control_title": "Security Incidents or Breaches",
+    "control_desc": "Security incidents or breaches",
+    "page": 19
+  },
+  {
+    "control_id": "AT-3",
+    "control_title": "Security Incidents or Breaches",
+    "control_desc": "Security incidents or breaches",
+    "page": 19
+  },
+  {
+    "control_id": "AT-6",
+    "control_title": "Evaluation and Update",
+    "control_desc": "Evaluation and update",
+    "page": 19
+  },
+  {
+    "control_id": "AT-6",
+    "control_title": "Organizational Training",
+    "control_desc": "Organizational training",
+    "page": 19
+  },
+  {
+    "control_id": "AU-1a.1",
+    "control_title": "Organization-Level; Mission/Business Process-Level; System-Level",
+    "control_desc": "Organization-level; Mission/business process-level; System-level",
+    "page": 19
+  },
+  {
+    "control_id": "AU-1",
+    "control_title": "Security Incidents or Breaches",
+    "control_desc": "Security incidents or breaches",
+    "page": 19
+  },
+  {
+    "control_id": "CA-1a.1",
+    "control_title": "Organization-Level; Mission/Business Process-Level; System-Level",
+    "control_desc": "Organization-level; Mission/business process-level; System-level",
+    "page": 19
+  },
+  {
+    "control_id": "CA-1",
+    "control_title": "Security Incidents or Breaches",
+    "control_desc": "Security incidents or breaches",
+    "page": 19
+  },
+  {
+    "control_id": "CA-1",
+    "control_title": "OMB A-130",
+    "control_desc": "[OMB A-130]",
+    "page": 19
+  },
+  {
+    "control_id": "CA-1",
+    "control_title": "[SP 800-137A]",
+    "control_desc": "[SP 800-137A]",
+    "page": 19
+  },
+  {
+    "control_id": "CA-2(2)",
+    "control_title": "Data Loss Assessment",
+    "control_desc": "Data loss assessment;",
+    "page": 19
+  },
+  {
+    "control_id": "CA-3",
+    "control_title": "OMB A-130",
+    "control_desc": "[OMB A-130]",
+    "page": 19
+  },
+  {
+    "control_id": "CA-7",
+    "control_title": "SC-18b",
+    "control_desc": "SC-18b",
+    "page": 19
+  },
+  {
+    "control_id": "CM-1a.1",
+    "control_title": "Organization-Level; Mission/Business Process-Level; System-Level",
+    "control_desc": "Organization-level; Mission/business process-level; System-level",
+    "page": 19
+  },
+  {
+    "control_id": "CM-1",
+    "control_title": "Security Incidents or Breaches",
+    "control_desc": "Security incidents or breaches",
+    "page": 19
+  },
+  {
+    "control_id": "CM-2b.2",
+    "control_title": "Assignment:",
+    "control_desc": "Assignment:",
+    "page": 19
+  },
+  {
+    "control_id": "CM-7(4)",
+    "control_title": "Unauthorized Software \u2013 Deny-by-Exception",
+    "control_desc": "Unauthorized software \u2013 deny-by-exception",
+    "page": 19
+  },
+  {
+    "control_id": "PE-1a.1",
+    "control_title": "Change organization-level; mission/business process-level; system-level",
+    "control_desc": "Change \u2018organization-level; mission/business process-level; system-level\u2019 to \u2018Organization-level; Mission/business process-level; System-level\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PE-1",
+    "control_title": "Change security or privacy incidents",
+    "control_desc": "Change \u2018security or privacy incidents\u2019 to \u2018security incidents or breaches\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PE-3(8)",
+    "control_title": "Delete Mantraps",
+    "control_desc": "Delete \u2018Mantraps\u2019, change to \u2018Vestibules\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PL-1a.1",
+    "control_title": "Change organization-level; mission/business process-level; system-level",
+    "control_desc": "Change \u2018organization-level; mission/business process-level; system-level\u2019 to \u2018Organization-level; Mission/business process-level; System-level\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PL-1",
+    "control_title": "Change security or privacy incidents",
+    "control_desc": "Change \u2018security or privacy incidents\u2019 to \u2018security incidents or breaches\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PL-2",
+    "control_title": "Change OMB A-130, Appendix II",
+    "control_desc": "Change '[OMB A-130, Appendix II]' to '[OMB A-130]'",
+    "page": 21
+  },
+  {
+    "control_id": "PL-7",
+    "control_title": "Change OMB A-130, Appendix II",
+    "control_desc": "Change '[OMB A-130, Appendix II]' to '[OMB A-130]'",
+    "page": 21
+  },
+  {
+    "control_id": "PL-11",
+    "control_title": "Change FISMA and PRIVACT",
+    "control_desc": "Change '[FISMA] and [PRIVACT]' to '[FISMA], [PRIVACT], and [OMB A-130]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-1",
+    "control_title": "Change security or privacy incidents",
+    "control_desc": "Change \u2018security or privacy incidents\u2019 to \u2018security incidents or breaches\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PM-2",
+    "control_title": "Add SP 800-181",
+    "control_desc": "Add '[SP 800-181]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-5",
+    "control_title": "Add OMB A-130",
+    "control_desc": "Add '[OMB A-130]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-8",
+    "control_title": "Add EO 13636",
+    "control_desc": "Add '[EO 13636]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-10",
+    "control_title": "Add SP 800-181",
+    "control_desc": "Add '[SP 800-181]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-11",
+    "control_title": "Add RA -9",
+    "control_desc": "Add 'RA -9'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-12",
+    "control_title": "Add NITP12",
+    "control_desc": "Add '[NITP12]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-17",
+    "control_title": "Add SP 800-172",
+    "control_desc": "Add '[SP 800-172]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-19",
+    "control_title": "Add PM -27",
+    "control_desc": "Add ', PM -27'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-22",
+    "control_title": "Add OMB M-19-15",
+    "control_desc": "Add '[OMB M-19-15]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-24",
+    "control_title": "Add PT -2",
+    "control_desc": "Add ', PT -2'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-24",
+    "control_title": "Change OMB A-130, Appendix II",
+    "control_desc": "Change '[OMB A-130, Appendix II]' to '[OMB A-130]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-25",
+    "control_title": "Add SI -12",
+    "control_desc": "Add ', SI -12'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-25",
+    "control_title": "Change OMB A-130, Appendix II",
+    "control_desc": "Change '[OMB A-130, Appendix II]' to '[OMB A-130]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-29",
+    "control_title": "Add SP 800-181",
+    "control_desc": "Add '[SP 800-181]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-30",
+    "control_title": "Add CNSSD 505",
+    "control_desc": "Add '[CNSSD 505]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-31",
+    "control_title": "Change SC-18c to SC-18b",
+    "control_desc": "Change \u2018SC-18c\u2019 to \u2018SC-18b\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PM-31",
+    "control_title": "Add SP 800-137A",
+    "control_desc": "Add '[SP 800-137A]'",
+    "page": 21
+  },
+  {
+    "control_id": "PM-32",
+    "control_title": "Change SP 800-137 to SP 800 -160-1, SP 800-160-2",
+    "control_desc": "Change '[SP 800-137]' to '[SP 800 -160-1], [SP 800-160-2]'",
+    "page": 21
+  },
+  {
+    "control_id": "PS-1a.1",
+    "control_title": "Change organization-level; mission/business process-level; system-level",
+    "control_desc": "Change \u2018organization-level; mission/business process-level; system-level\u2019 to \u2018Organization-level; Mission/business process-level; System-level\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PS-1",
+    "control_title": "Change security or privacy incidents",
+    "control_desc": "Change \u2018security or privacy incidents\u2019 to \u2018security incidents or breaches\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PS-3(3)",
+    "control_title": "Change WITH to REQUIRING",
+    "control_desc": "Change \u2018WITH\u2019 to \u2018REQUIRING\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PT-1a.1",
+    "control_title": "Change organization-level; mission/business process-level; system-level",
+    "control_desc": "Change \u2018organization-level; mission/business process-level; system-level\u2019 to \u2018Organization-level; Mission/business process-level; System-level\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "PT-1",
+    "control_title": "Change privacy breaches",
+    "control_desc": "Change \u2018privacy breaches\u2019 to \u2018breaches\u2019",
+    "page": 21
+  },
+  {
+    "control_id": "AU-4",
+    "control_title": "Audit Storage Capacity",
+    "control_desc": "Allocate audit record storage capacity to accommodate organization-defined audit record retention requirements.",
+    "page": 35
+  },
+  {
+    "control_id": "AU-4 Enhancement 1",
+    "control_title": "Audit Storage Capacity | Transfer to Alternate Storage",
+    "control_desc": "Off-load audit records onto a different system or media than the system being audited.",
+    "page": 35
+  },
+  {
+    "control_id": "AC-1",
+    "control_title": "Develop, document, and disseminate access control policy and procedures",
+    "control_desc": "Develop, document, and disseminate to organization-defined personnel or roles an organization-level, mission/business process-level, or system-level access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance. Also develop procedures to facilitate the implementation of the access control policy and the associated access controls. Designate an organization-defined official to manage the development, documentation, and dissemination of the access control policy and procedures. Review and update the current access control policy and procedures at organization-defined frequencies and following organization-defined events.",
+    "page": 44
+  },
+  {
+    "control_id": "AC-2",
+    "control_title": "Account Management",
+    "control_desc": "Define and document the types of accounts allowed and specifically prohibited for use within the system; assign account managers; require prerequisites and criteria for group and role membership; specify authorized users, group and role membership, and access authorizations for each account; require approvals for account creation; create, enable, modify, disable, and remove accounts according to defined policy; monitor account use; notify relevant personnel when accounts are no longer required, users are terminated or transferred, or system usage or need-to-know changes; authorize access based on valid authorization, intended system usage, and defined attributes; review accounts for compliance with account management requirements at defined frequency; establish a process for changing shared or group account authenticators when individuals are removed from the group; align account management processes with personnel termination and transfer processes.",
+    "page": 45
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Account Management | Account Creation",
+    "control_desc": "Establish the specific conditions for group and role membership; specify authorized users, group and role membership, and access authorizations for each account; and create, adjust, or remove system accounts in accordance with organizational policies.",
+    "page": 46
+  },
+  {
+    "control_id": "AC-5",
+    "control_title": "Account Management | Account Expiration",
+    "control_desc": "Policies can include such information as account expiration dates or other factors that trigger the disabling of accounts.",
+    "page": 46
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Account Management | Account Attributes",
+    "control_desc": "Organizations may choose to define access privileges or other attributes by account, type of account, or a combination of the two. Examples of other attributes required for authorizing access include restrictions on time of day, day of week, and point of origin.",
+    "page": 46
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "Account Management | Shared Accounts",
+    "control_desc": "Changing shared/group authenticators when members leave the group is intended to ensure that former group members do not retain access to the shared or group account.",
+    "page": 46
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "Account Management | Training",
+    "control_desc": "Some types of system accounts may require specialized training.",
+    "page": 46
+  },
+  {
+    "control_id": "AC-20",
+    "control_title": "Account Management | Account Management Mechanisms",
+    "control_desc": "Support the management of system accounts using organization-defined automated mechanisms.",
+    "page": 46
+  },
+  {
+    "control_id": "AC-24",
+    "control_title": "Account Management | Account Notifications",
+    "control_desc": "Automated system account management includes using automated mechanisms to create, enable, modify, disable, and remove accounts; notify account managers when an account is created, enabled, modified, disabled, or removed, or when users are terminated or transferred; monitor system account usage; and report atypical system account usage.",
+    "page": 46
+  },
+  {
+    "control_id": "AU-2",
+    "control_title": "Audit and Accountability | Audit Mechanisms",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "AU-12",
+    "control_title": "Audit and Accountability | Audit Reports",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "CM-5",
+    "control_title": "Configuration Management | Configuration Management",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "Identification and Authentication | Identification and Authentication Mechanisms",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "IA-4",
+    "control_title": "Identification and Authentication | Authentication Mechanisms",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "IA-5",
+    "control_title": "Identification and Authentication | Authentication Mechanisms",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "IA-8",
+    "control_title": "Identification and Authentication | Authentication Mechanisms",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "MA-3",
+    "control_title": "Maintenance | Maintenance Activities",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "MA-5",
+    "control_title": "Maintenance | Maintenance Activities",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "PE-2",
+    "control_title": "Physical and Environmental Protection | Physical and Environmental Protection",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "PL-4",
+    "control_title": "Protection | Protection",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "PS-2",
+    "control_title": "Personnel Security | Personnel Security",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "PS-4",
+    "control_title": "Personnel Security | Personnel Security",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "PS-5",
+    "control_title": "Personnel Security | Personnel Security",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "PS-7",
+    "control_title": "Personnel Security | Personnel Security",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "PT-2",
+    "control_title": "Physical and Environmental Protection | Physical and Environmental Protection",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "PT-3",
+    "control_title": "Physical and Environmental Protection | Physical and Environmental Protection",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "SC-7",
+    "control_title": "System and Communications Protection | System and Communications Protection",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "SC-12",
+    "control_title": "System and Communications Protection | System and Communications Protection",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "SC-13",
+    "control_title": "System and Communications Protection | System and Communications Protection",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "SC-37",
+    "control_title": "System and Communications Protection | System and Communications Protection",
+    "control_desc": "None.",
+    "page": 46
+  },
+  {
+    "control_id": "AU-2",
+    "control_title": "Account Management Audit Records",
+    "control_desc": "Automatically audit account creation, modification, enabling, disabling, and removal actions.",
+    "page": 47
+  },
+  {
+    "control_id": "AU-6",
+    "control_title": "Account Management Audit Record Review",
+    "control_desc": "Account management audit records are defined in accordance with AU-2 and reviewed, analyzed, and reported in accordance with AU-6.",
+    "page": 47
+  },
+  {
+    "control_id": "AC-11",
+    "control_title": "Inactivity Logout",
+    "control_desc": "Require that users log out when [Assignment: organization-defined time period of expected inactivity or description of when to log out].",
+    "page": 47
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Dynamic Privilege Management",
+    "control_desc": "Implement [Assignment: organization-defined dynamic privilege management capabilities].",
+    "page": 47
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Dynamic Account Management",
+    "control_desc": "Create, activate, manage, and deactivate organization-defined system accounts dynamically.",
+    "page": 48
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "ACCESS ENFORCEMENT",
+    "control_desc": "Enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies.",
+    "page": 49
+  },
+  {
+    "control_id": "AU-6",
+    "control_title": "ACCOUNT MANAGEMENT | DISABLE ACCOUNTS FOR HIGH-RISK INDIVIDUALS",
+    "control_desc": "Disable accounts of individuals within [Assignment: organization-defined time period] of discovery of [Assignment: organization-defined significant risks].",
+    "page": 49
+  },
+  {
+    "control_id": "SI-4",
+    "control_title": "ACCOUNT MANAGEMENT | DUAL AUTHORIZATION",
+    "control_desc": "Enforce dual authorization for [Assignment: organization-defined privileged commands and/or other organization-defined actions].",
+    "page": 49
+  },
+  {
+    "control_id": "AC-25",
+    "control_title": "Reference Monitor Concept",
+    "control_desc": "Enforcement of mandatory access control policies is provided by an implementation that meets the reference monitor concept.",
+    "page": 50
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Least Privilege",
+    "control_desc": "Trusted subjects are only given the minimum privileges necessary for satisfying organizational mission/business needs relative to the above policy.",
+    "page": 50
+  },
+  {
+    "control_id": "SC-7",
+    "control_title": "Mandatory Access Control Policy",
+    "control_desc": "The control is most applicable when there is a mandate that establishes a policy regarding access to controlled unclassified information or classified information and some users of the system are not authorized access to all such information resident in the system.",
+    "page": 50
+  },
+  {
+    "control_id": "AC-3(3)",
+    "control_title": "Mandatory Access Control",
+    "control_desc": "Imposes constraints that prevent a subject from passing information to another subject operating at a different impact or classification level.",
+    "page": 51
+  },
+  {
+    "control_id": "AC-3(4)",
+    "control_title": "Mandatory Access Control",
+    "control_desc": "Permits the subject to pass information to any subject at the same impact or classification level.",
+    "page": 51
+  },
+  {
+    "control_id": "CM-6",
+    "control_title": "Configuration Management",
+    "control_desc": "Not explicitly stated in the text, but related to the control mentioned.",
+    "page": 51
+  },
+  {
+    "control_id": "SC-39",
+    "control_title": "Security-Centric Information Protection",
+    "control_desc": "Prevents access to organization-defined security-relevant information except during secure, non-operable system states.",
+    "page": 51
+  },
+  {
+    "control_id": "MP-4",
+    "control_title": "Maintenance and Patch Management",
+    "control_desc": "Incorporated into the control mentioned.",
+    "page": 51
+  },
+  {
+    "control_id": "SC-28",
+    "control_title": "Security-Centric Information Protection",
+    "control_desc": "Incorporated into the control mentioned.",
+    "page": 51
+  },
+  {
+    "control_id": "SC-28",
+    "control_title": "Role-Based Access Control",
+    "control_desc": "Enforces access to objects and system functions based on the defined role of the subject.",
+    "page": 51
+  },
+  {
+    "control_id": "AC-3(3)",
+    "control_title": "Scope of Subjects and Objects",
+    "control_desc": "Define the scope of the subjects and objects covered by the policy for organizations implementing RBAC with mandatory access controls.",
+    "page": 52
+  },
+  {
+    "control_id": "None",
+    "control_title": "No Related Controls",
+    "control_desc": "No related controls mentioned.",
+    "page": 52
+  },
+  {
+    "control_id": "None",
+    "control_title": "No Related Controls",
+    "control_desc": "No related controls mentioned.",
+    "page": 52
+  },
+  {
+    "control_id": "CA-3",
+    "control_title": "Controlled Release of Information",
+    "control_desc": "Release information outside of the system only if the receiving system provides defined controls and uses them to validate the appropriateness of the information designated for release.",
+    "page": 52
+  },
+  {
+    "control_id": "PT-7",
+    "control_title": "Controlled Release of Information",
+    "control_desc": "Implement technical means to validate the security and privacy attributes associated with exported information before releasing it to external systems.",
+    "page": 52
+  },
+  {
+    "control_id": "PT-8",
+    "control_title": "Controlled Release of Information",
+    "control_desc": "Implement technical means to validate the security and privacy attributes associated with exported information before releasing it to external systems.",
+    "page": 52
+  },
+  {
+    "control_id": "SA-9",
+    "control_title": "Controlled Release of Information",
+    "control_desc": "Implement technical means to validate the security and privacy attributes associated with exported information before releasing it to external systems.",
+    "page": 52
+  },
+  {
+    "control_id": "SC-16",
+    "control_title": "Controlled Release of Information",
+    "control_desc": "Implement technical means to validate the security and privacy attributes associated with exported information before releasing it to external systems.",
+    "page": 52
+  },
+  {
+    "control_id": "None",
+    "control_title": "No Related Controls",
+    "control_desc": "No related controls mentioned.",
+    "page": 52
+  },
+  {
+    "control_id": "ACCESS ENFORCEMENT | RESTRICT ACCESS TO SPECIFIC INFORMATION TYPES",
+    "control_title": "Restrict access to specific information types",
+    "control_desc": "Restrict access to data repositories containing [Assignment: organization-defined information types].",
+    "page": 53
+  },
+  {
+    "control_id": "ACCESS ENFORCEMENT | ASSERT AND ENFORCE APPLICATION ACCESS",
+    "control_title": "Assert and enforce application access",
+    "control_desc": "(a) Require applications to assert, as part of the installation process, the access needed to the following system applications and functions: [Assignment: organization-defined system applications and functions]; (b) Provide an enforcement mechanism to prevent unauthorized access; and (c) Approve access changes after initial installation of the application.",
+    "page": 53
+  },
+  {
+    "control_id": "ACCESS ENFORCEMENT | ATTRIBUTE-BASED ACCESS CONTROL",
+    "control_title": "Enforce attribute-based access control policy",
+    "control_desc": "Enforce attribute-based access control policy over defined subjects and objects and control access based upon [Assignment: organization-defined attributes to assume access permissions].",
+    "page": 53
+  },
+  {
+    "control_id": "AC-4",
+    "control_title": "Information Flow Enforcement",
+    "control_desc": "Enforce approved authorizations for controlling the flow of information within the system and between connected systems based on organization-defined information flow control policies.",
+    "page": 54
+  },
+  {
+    "control_id": "IA-8",
+    "control_title": "Mandatory Access Control Enforcement",
+    "control_desc": "Enforce organization-defined mandatory access control policy over the set of covered subjects and objects specified in the policy.",
+    "page": 54
+  },
+  {
+    "control_id": "PM-22",
+    "control_title": "Discretionary Access Control Enforcement",
+    "control_desc": "Enforce organization-defined discretionary access control policy over the set of covered subjects and objects specified in the policy.",
+    "page": 54
+  },
+  {
+    "control_id": "PM-20",
+    "control_title": "Access Enforcement",
+    "control_desc": "Provide organization-defined mechanisms to enable individuals to have access to the following elements of their personally identifiable information.",
+    "page": 54
+  },
+  {
+    "control_id": "PM-21",
+    "control_title": "Access Enforcement",
+    "control_desc": "Provide organization-defined mechanisms to enable individuals to have access to the following elements of their personally identifiable information.",
+    "page": 54
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Use of Security and Privacy Attributes",
+    "control_desc": "Use organization-defined security and privacy attributes associated with information, source, and destination objects to enforce organization-defined information flow control policies.",
+    "page": 55
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Information Flow Enforcement Mechanisms",
+    "control_desc": "Information flow enforcement mechanisms compare security and privacy attributes associated with information and source and destination objects and respond appropriately when encountering information flows not explicitly allowed by information flow policies.",
+    "page": 55
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "AC-19",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "AC-21",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "AU-10",
+    "control_title": "Audit and Accountability",
+    "control_desc": "Not explicitly described in the given text.",
+    "page": 55
+  },
+  {
+    "control_id": "CA-3",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "CA-9",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "CM-7",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "PL-9",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "PM-24",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "SA-17",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "SC-4",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "SC-7",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "SC-16",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "SC-31",
+    "control_title": "Information Flow Control Policies",
+    "control_desc": "Enforce organization-defined information flow control policies using security and privacy attributes.",
+    "page": 55
+  },
+  {
+    "control_id": "SC -39",
+    "control_title": "Information Flow Enforcement | Dynamic Information Flow Control",
+    "control_desc": "Enforce organization-defined information flow control policies. Organizational policies regarding dynamic information flow control include allowing or disallowing information flows based on changing conditions or mission or operational considerations.",
+    "page": 56
+  },
+  {
+    "control_id": "SI -4",
+    "control_title": "Information Flow Enforcement | Flow Control of Encrypted Information",
+    "control_desc": "Prevent encrypted information from bypassing organization-defined information flow control mechanisms by decrypting the information, blocking the flow of the encrypted information, terminating communications sessions attempting to pass encrypted information, or using organization-defined procedures or methods.",
+    "page": 56
+  },
+  {
+    "control_id": "None",
+    "control_title": "Information Flow Enforcement | Embedded Data Types",
+    "control_desc": "Enforce organization-defined limitations on embedding data types within other data types. Embedding data types within other data types may result in reduced flow control effectiveness.",
+    "page": 56
+  },
+  {
+    "control_id": "AC -16, SI-7",
+    "control_title": "Information Flow Enforcement | Metadata",
+    "control_desc": "Enforce information flow control based on organization-defined metadata. Consider the trustworthiness of metadata regarding data accuracy, data integrity, and the binding of metadata to the data payload.",
+    "page": 56
+  },
+  {
+    "control_id": "None",
+    "control_title": "Information Flow Enforcement | One-Way Flow Mechanisms",
+    "control_desc": "Enforce one-way information flows through hardware-based flow control mechanisms. One-way flow mechanisms can be used to prevent data from being exported from a higher impact or classified domain or system while permitting data from a lower impact or unclassified domain or system to be imported.",
+    "page": 56
+  },
+  {
+    "control_id": "A.5.1",
+    "control_title": "Enforce Information Flow Control Using Policy Filters",
+    "control_desc": "Enforce information flow control using organization-defined security or privacy policy filters as a basis for flow control decisions for organization-defined information flows; and block, strip, modify, or quarantine data after filter processing failure in accordance with organization-defined security or privacy policy.",
+    "page": 57
+  },
+  {
+    "control_id": "A.5.2",
+    "control_title": "Use Human Reviews for Information Flows",
+    "control_desc": "Enforce the use of human reviews for organization-defined information flows under the specified conditions.",
+    "page": 57
+  },
+  {
+    "control_id": "A.5.3",
+    "control_title": "Enable and Disable Security or Privacy Policy Filters",
+    "control_desc": "Provide the capability for privileged administrators to enable and disable organization-defined security or privacy policy filters under specified conditions.",
+    "page": 57
+  },
+  {
+    "control_id": "A.5.4",
+    "control_title": "Configure Security or Privacy Policy Filters",
+    "control_desc": "Provide the capability for privileged administrators to configure organization-defined security or privacy policy filters to support different security or privacy policies.",
+    "page": 57
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "Uniquely identify and authenticate source and destination points",
+    "control_desc": "Attribution is a critical component of security and privacy operations. The ability to identify source and destination points for information flowing within systems allows forensic reconstruction of events and encourages policy compliance.",
+    "page": 59
+  },
+  {
+    "control_id": "IA-3",
+    "control_title": "Uniquely identify and authenticate source and destination points",
+    "control_desc": "Attribution is a critical component of security and privacy operations. The ability to identify source and destination points for information flowing within systems allows forensic reconstruction of events and encourages policy compliance.",
+    "page": 59
+  },
+  {
+    "control_id": "IA-9",
+    "control_title": "Uniquely identify and authenticate source and destination points",
+    "control_desc": "Attribution is a critical component of security and privacy operations. The ability to identify source and destination points for information flowing within systems allows forensic reconstruction of events and encourages policy compliance.",
+    "page": 59
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Information Flow Enforcement | Security Attribute Binding",
+    "control_desc": "When transferring information between different security domains, implement defined security or privacy policy filters on metadata.",
+    "page": 59
+  },
+  {
+    "control_id": "SC-32",
+    "control_title": "Physical or Logical Separation of Information Flows",
+    "control_desc": "Separate information flows logically or physically using defined mechanisms and/or techniques to accomplish defined required separations by types of information.",
+    "page": 59
+  },
+  {
+    "control_id": "INFORMATION FLOW ENFORCEMENT | MODIFY NON-RELEASABLE INFORMATION",
+    "control_title": "Modify Non-Releasable Information",
+    "control_desc": "When transferring information between different security domains, modify non-releasable information by implementing [Assignment: organization-defined modification action].",
+    "page": 60
+  },
+  {
+    "control_id": "INFORMATION FLOW ENFORCEMENT | INTERNAL NORMALIZED FORMAT",
+    "control_title": "Internal Normalized Format",
+    "control_desc": "When transferring information between different security domains, parse incoming data into an internal normalized format and regenerate the data to be consistent with its intended specification.",
+    "page": 60
+  },
+  {
+    "control_id": "INFORMATION FLOW ENFORCEMENT | DATA SANITIZATION",
+    "control_title": "Data Sanitization",
+    "control_desc": "When transferring information between different security domains, sanitize data to minimize [Selection (one or more): delivery of malicious content, command and control of malicious code, malicious code augmentation, and steganography encoded data; spillage] in accordance with [Assignment: organization-defined policy]].",
+    "page": 60
+  },
+  {
+    "control_id": "INFORMATION FLOW ENFORCEMENT | AUDIT FILTERING ACTIONS",
+    "control_title": "Audit Filtering Actions",
+    "control_desc": "When transferring information between different security domains, record and audit content filtering actions and results for the information being filtered.",
+    "page": 60
+  },
+  {
+    "control_id": "INFORMATION FLOW ENFORCEMENT | REDUNDANT/INDEPENDENT FILTERING MECHANISMS",
+    "control_title": "Redundant/Independent Filtering Mechanisms",
+    "control_desc": "When transferring information between different security domains, implement content filtering solutions that provide redundant and independent filtering mechanisms for each data type.",
+    "page": 60
+  },
+  {
+    "control_id": "AC-5",
+    "control_title": "Separation of Duties",
+    "control_desc": "Identify and document duties requiring separation; define system access authorizations to support separation.",
+    "page": 62
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Least Privilege",
+    "control_desc": "Employ the principle of least privilege, allowing only necessary accesses for users to accomplish assigned tasks.",
+    "page": 62
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "Least Privilege | Non-Privileged Access for Non-Security Functions",
+    "control_desc": "Require that users of system accounts (or roles) with access to organization-defined security functions or security-relevant information use non-privileged accounts or roles, when accessing non-security functions.",
+    "page": 63
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "Least Privilege | Network Access to Privileged Commands",
+    "control_desc": "Authorize network access to organization-defined privileged commands only for organization-defined compelling operational needs and document the rationale for such access in the security plan for the system.",
+    "page": 63
+  },
+  {
+    "control_id": "AC-19",
+    "control_title": "Least Privilege | Separate Processing Domains",
+    "control_desc": "Provide separate processing domains to enable finer-grained allocation of user privileges.",
+    "page": 63
+  },
+  {
+    "control_id": "AC-4",
+    "control_title": "Least Privilege | Separate Processing Domains",
+    "control_desc": "Providing separate processing domains for finer-grained allocation of user privileges includes using virtualization techniques to permit additional user privileges within a virtual machine while restricting privileges to other virtual machines or to the underlying physical machine, implementing separate physical domains, and employing hardware or software domain separation mechanisms.",
+    "page": 63
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "Least Privilege | Privileged Accounts",
+    "control_desc": "Restrict privileged accounts on the system to organization-defined personnel or roles.",
+    "page": 63
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "Prohibit privileged access to the system by non-organizational users",
+    "control_desc": "Prohibit privileged access to the system by non-organizational users. Policies and procedures for granting equivalent status of employees to individuals include a need-to-know, citizenship, and the relationship to the organization.",
+    "page": 64
+  },
+  {
+    "control_id": "AC-19",
+    "control_title": "Review of user privileges",
+    "control_desc": "(a) Review [Assignment: organization-defined frequency] the privileges assigned to [Assignment: organization-defined roles or classes of users] to validate the need for such privileges; and (b) Reassign or remove privileges, if necessary, to correctly reflect organizational mission and business needs.",
+    "page": 64
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "Least privilege | Review of user privileges",
+    "control_desc": "(a) Review [Assignment: organization-defined frequency] the privileges assigned to [Assignment: organization-defined roles or classes of users] to validate the need for such privileges; and (b) Reassign or remove privileges, if necessary, to correctly reflect organizational mission and business needs.",
+    "page": 64
+  },
+  {
+    "control_id": "IA-8",
+    "control_title": "Least privilege | Review of user privileges",
+    "control_desc": "(a) Review [Assignment: organization-defined frequency] the privileges assigned to [Assignment: organization-defined roles or classes of users] to validate the need for such privileges; and (b) Reassign or remove privileges, if necessary, to correctly reflect organizational mission and business needs.",
+    "page": 64
+  },
+  {
+    "control_id": "CA-7",
+    "control_title": "Least privilege | Review of user privileges",
+    "control_desc": "(a) Review [Assignment: organization-defined frequency] the privileges assigned to [Assignment: organization-defined roles or classes of users] to validate the need for such privileges; and (b) Reassign or remove privileges, if necessary, to correctly reflect organizational mission and business needs.",
+    "page": 64
+  },
+  {
+    "control_id": "AU-2",
+    "control_title": "Log use of privileged functions",
+    "control_desc": "Log the execution of privileged functions. The misuse of privileged functions, either intentionally or unintentionally by authorized users or by unauthorized external entities that have compromised system accounts, is a serious and ongoing concern and can have significant adverse impacts on organizations. Logging and analyzing the use of privileged functions is one way to detect such misuse and, in doing so, help mitigate the risk from insider threats and the advanced persistent threat.",
+    "page": 64
+  },
+  {
+    "control_id": "AU-3",
+    "control_title": "Log use of privileged functions",
+    "control_desc": "Log the execution of privileged functions. The misuse of privileged functions, either intentionally or unintentionally by authorized users or by unauthorized external entities that have compromised system accounts, is a serious and ongoing concern and can have significant adverse impacts on organizations. Logging and analyzing the use of privileged functions is one way to detect such misuse and, in doing so, help mitigate the risk from insider threats and the advanced persistent threat.",
+    "page": 64
+  },
+  {
+    "control_id": "AU-12",
+    "control_title": "Log use of privileged functions",
+    "control_desc": "Log the execution of privileged functions. The misuse of privileged functions, either intentionally or unintentionally by authorized users or by unauthorized external entities that have compromised system accounts, is a serious and ongoing concern and can have significant adverse impacts on organizations. Logging and analyzing the use of privileged functions is one way to detect such misuse and, in doing so, help mitigate the risk from insider threats and the advanced persistent threat.",
+    "page": 64
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Preventing Non-Privileged Users from Executing Privileged Functions",
+    "control_desc": "Enforcing prevention mechanisms or malicious code protection mechanisms to prevent non-privileged users from executing privileged functions.",
+    "page": 65
+  },
+  {
+    "control_id": "AC-7",
+    "control_title": "Unsuccessful Logon Attempts",
+    "control_desc": "Enforce a limit of a defined number of consecutive invalid logon attempts by a user during a defined time period; automatically lock the account or node for a defined time period; delay next logon prompt; notify system administrator; take other defined actions when the maximum number of unsuccessful attempts is exceeded.",
+    "page": 65
+  },
+  {
+    "control_id": "AC-7",
+    "control_title": "Unsuccessful Logon Attempts | Automatic Account Lock",
+    "control_desc": "Automatic account lock after a specified period of time if automatic system lockout or execution of a delay algorithm is not implemented.",
+    "page": 65
+  },
+  {
+    "control_id": "AC-7",
+    "control_title": "Unsuccessful Logon Attempts | Purge or Wipe Mobile Device",
+    "control_desc": "Purge or wipe information from defined mobile devices based on defined purging or wiping requirements and techniques after a defined number of consecutive, unsuccessful device logon attempts.",
+    "page": 65
+  },
+  {
+    "control_id": "AC-19",
+    "control_title": "Unsuccessful Logon Attempts",
+    "control_desc": "Limit the number of unsuccessful biometric logon attempts to an organization-defined number.",
+    "page": 66
+  },
+  {
+    "control_id": "MP-5",
+    "control_title": "Unsuccessful Logon Attempts",
+    "control_desc": "Limit the number of unsuccessful biometric logon attempts to an organization-defined number.",
+    "page": 66
+  },
+  {
+    "control_id": "MP-6",
+    "control_title": "Unsuccessful Logon Attempts",
+    "control_desc": "Limit the number of unsuccessful biometric logon attempts to an organization-defined number.",
+    "page": 66
+  },
+  {
+    "control_id": "IA-3",
+    "control_title": "Use of Alternate Authentication Factor",
+    "control_desc": "Allow the use of different authentication factors after a certain number of consecutive invalid logon attempts and enforce a limit of consecutive invalid logon attempts through alternative factors.",
+    "page": 66
+  },
+  {
+    "control_id": "AC-8",
+    "control_title": "System Use Notification",
+    "control_desc": "Display a system use notification message or banner to users before granting access to the system, stating that users are accessing a U.S. Government system, system usage may be monitored, unauthorized use is prohibited, and use of the system indicates consent to monitoring and recording. Retain the notification message or banner on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the system. For publicly accessible systems, display system use information and references to monitoring, recording, or auditing.",
+    "page": 66
+  },
+  {
+    "control_id": "AC-14",
+    "control_title": "Authorized Uses of the System",
+    "control_desc": "Include a description of the authorized uses of the system.",
+    "page": 67
+  },
+  {
+    "control_id": "PL-4",
+    "control_title": "System Use Notification Messages or Banners",
+    "control_desc": "System use notifications can be implemented using messages or warning banners displayed before individuals log in to systems. These notifications are used only for access via logon interfaces with human users. They are not required when human interfaces do not exist. Organizations consider whether a secondary system use notification is needed to access applications or other system resources after the initial network logon. Notifications are displayed in multiple languages based on organizational needs and the demographics of system users. Privacy messaging requires consultation with the privacy office, and warning banner content requires legal review and approval.",
+    "page": 67
+  },
+  {
+    "control_id": "SI-4",
+    "control_title": "System Use Notification Messages or Banners",
+    "control_desc": "System use notifications can be implemented using messages or warning banners displayed before individuals log in to systems. These notifications are used only for access via logon interfaces with human users. They are not required when human interfaces do not exist. Organizations consider whether a secondary system use notification is needed to access applications or other system resources after the initial network logon. Notifications are displayed in multiple languages based on organizational needs and the demographics of system users. Privacy messaging requires consultation with the privacy office, and warning banner content requires legal review and approval.",
+    "page": 67
+  },
+  {
+    "control_id": "AC-9",
+    "control_title": "Previous Logon Notification",
+    "control_desc": "Notify the user, upon successful logon to the system, of the date and time of the last logon.",
+    "page": 67
+  },
+  {
+    "control_id": "AC-7",
+    "control_title": "Previous Logon Notification",
+    "control_desc": "Previous logon notification is applicable to system access via human user interfaces and access to systems that occur in other types of architectures. Information about the last successful logon allows the user to recognize if the date and time provided is not consistent with the user\u2019s last access.",
+    "page": 67
+  },
+  {
+    "control_id": "PREVIOUS LOGON NOTIFICATION | UNSUCCESSFUL LOGONS",
+    "control_title": "Unsuccessful Logon Attempts Notification",
+    "control_desc": "Notify the user, upon successful logon, of the number of unsuccessful logon attempts since the last successful logon.",
+    "page": 67
+  },
+  {
+    "control_id": "PREVIOUS LOGON NOTIFICATION | SUCCESSFUL AND UNSUCCESSFUL LOGONS",
+    "control_title": "Successful and Unsuccessful Logon Attempts Notification",
+    "control_desc": "Notify the user, upon successful logon, of the number of successful and unsuccessful logon attempts during an organization-defined time period.",
+    "page": 67
+  },
+  {
+    "control_id": "PREVIOUS LOGON NOTIFICATION | NOTIFICATION OF ACCOUNT CHANGES",
+    "control_title": "Account Changes Notification",
+    "control_desc": "Notify the user, upon successful logon, of changes to security-related characteristics or parameters of the user\u2019s account during an organization-defined time period.",
+    "page": 67
+  },
+  {
+    "control_id": "AC-10",
+    "control_title": "CONCURRENT SESSION CONTROL",
+    "control_desc": "Limit the number of concurrent sessions for each account and/or account type to an organization-defined number.",
+    "page": 68
+  },
+  {
+    "control_id": "AC-11",
+    "control_title": "DEVICE LOCK",
+    "control_desc": "Prevent further access to the system by initiating a device lock after a defined time period of inactivity or requiring the user to initiate a device lock before leaving the system unattended. Retain the device lock until the user reestablishes access using established identification and authentication procedures.",
+    "page": 68
+  },
+  {
+    "control_id": "AC-12",
+    "control_title": "SESSION TERMINATION",
+    "control_desc": "Automatically terminate a user session after organization-defined conditions or trigger events requiring session disconnect.",
+    "page": 69
+  },
+  {
+    "control_id": "MA-4",
+    "control_title": "SESSION TERMINATION | USER-INITIATED LOGOUTS",
+    "control_desc": "Provide a logout capability for user-initiated communications sessions whenever authentication is used to gain access to organization-defined information resources.",
+    "page": 69
+  },
+  {
+    "control_id": "SC-10",
+    "control_title": "SESSION TERMINATION | TERMINATION MESSAGE",
+    "control_desc": "Display an explicit logout message to users indicating the termination of authenticated communications sessions.",
+    "page": 69
+  },
+  {
+    "control_id": "SC-23",
+    "control_title": "SESSION TERMINATION | TIMEOUT WARNING MESSAGE",
+    "control_desc": "Display an explicit message to users indicating that the session will end in organization-defined time until end of session.",
+    "page": 69
+  },
+  {
+    "control_id": "AC-14",
+    "control_title": "Permitted Actions Without Identification or Authentication",
+    "control_desc": "Identify user actions that can be performed on the system without identification or authentication, document and provide supporting rationale, and permit actions only if identification and authentication are not required.",
+    "page": 70
+  },
+  {
+    "control_id": "AC-15",
+    "control_title": "Automated Marking",
+    "control_desc": "[Withdrawn: Incorporated into MP-3.]",
+    "page": 70
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Security and Privacy Attributes",
+    "control_desc": "Provide means to associate defined types of security and privacy attributes with defined attribute values for information in storage, process, and transmission, ensure associations are made and retained, and establish permitted security and privacy attributes.",
+    "page": 70
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Security and Privacy Attributes | Dynamic Attribute Association",
+    "control_desc": "Dynamically associate security and privacy attributes with organization-defined subjects and objects in accordance with the following security and privacy policies as information is created and combined.",
+    "page": 72
+  },
+  {
+    "control_id": "AC-4",
+    "control_title": "Security and Privacy Attributes | Attribute Value Changes by Authorized Individuals",
+    "control_desc": "Provide authorized individuals the capability to define or change the value of associated security and privacy attributes.",
+    "page": 72
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Security and Privacy Attributes | Maintenance of Attribute Associations by System",
+    "control_desc": "Maintain the association and integrity of organization-defined security and privacy attributes to organization-defined subjects and objects.",
+    "page": 72
+  },
+  {
+    "control_id": "AC-21",
+    "control_title": "Security and Privacy Attributes | Association of Attributes by Authorized Individuals",
+    "control_desc": "Provide the capability to associate organization-defined security and privacy attributes with organization-defined subjects and objects by authorized individuals.",
+    "page": 72
+  },
+  {
+    "control_id": "SC-12",
+    "control_title": "Implement Techniques and Technologies for Binding Security Attributes to Information",
+    "control_desc": "Implement organization-defined techniques and technologies in associating security and privacy attributes to information.",
+    "page": 73
+  },
+  {
+    "control_id": "SC-13",
+    "control_title": "Implement Techniques and Technologies for Binding Security Attributes to Information",
+    "control_desc": "Implement organization-defined techniques and technologies in associating security and privacy attributes to information.",
+    "page": 73
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "Remote Access Controls",
+    "control_desc": "Establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed; and authorize each type of remote access to the system prior to allowing such connections.",
+    "page": 74
+  },
+  {
+    "control_id": "AC-2",
+    "control_title": "Access Control Policies",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Access Control Implementation",
+    "control_desc": "Enforcing access restrictions for remote access is addressed via AC-3.",
+    "page": 74
+  },
+  {
+    "control_id": "AC-4",
+    "control_title": "Access Control Monitoring",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "Remote Access Configuration",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "AC-19",
+    "control_title": "Remote Access Authentication",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "AC-20",
+    "control_title": "Remote Access Authorization",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "CA-3",
+    "control_title": "Security Agreements",
+    "control_desc": "Organizations may use information exchange and system connection security agreements to manage remote access connections to other systems, which are addressed as part of CA-3.",
+    "page": 74
+  },
+  {
+    "control_id": "CM-10",
+    "control_title": "Configuration Management",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "Identity and Access Management",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "IA-3",
+    "control_title": "Identity Verification",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "IA-8",
+    "control_title": "Identity Management",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "MA-4",
+    "control_title": "Media Protection",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "PE-17",
+    "control_title": "Physical and Environmental Protection",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "PL-2",
+    "control_title": "Physical Security",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "PL-4",
+    "control_title": "Physical Security Controls",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "SC-10",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "SC-12",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "SC-13",
+    "control_title": "System and Communications Protection",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  },
+  {
+    "control_id": "SI-4",
+    "control_title": "System and Information Integrity",
+    "control_desc": "Not explicitly stated but related to AC-17 and mentioned in the context of remote access controls.",
+    "page": 74
+  }
+]
