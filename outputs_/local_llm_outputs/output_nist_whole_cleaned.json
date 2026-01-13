@@ -1,0 +1,123 @@
+[
+    {
+        "control_id": "AC-3",
+        "control_title": "Account Management",
+        "control_desc": "Establish and maintain a process for managing system accounts.",
+        "page": 46,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed set of requirements and procedures for managing system accounts, which aligns with the description of AC-3. The text explicitly outlines the steps and processes required for account management, making it a clear and authoritative definition.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "AC-5",
+        "control_title": "Account Management",
+        "control_desc": "Specify authorized users, group and role membership, and access authorizations for each account.",
+        "page": 46,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed set of requirements and procedures for account management, which aligns with the description of AC-5. The text explicitly outlines the steps to specify authorized users, group and role membership, and access authorizations for each account, which is consistent with the claimed control description.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "AC-6",
+        "control_title": "Account Management",
+        "control_desc": "Create, adjust, or remove system accounts in accordance with organizational policies.",
+        "page": 46,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed set of requirements and procedures for managing system accounts, which aligns with the description of AC-6. The text explicitly outlines the processes for creating, adjusting, and removing system accounts, as well as the associated prerequisites and criteria, which directly corresponds to the claimed control ID and title.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "IA-2",
+        "control_title": "Identity and Access Management",
+        "control_desc": "Establish and maintain a process for managing system accounts.",
+        "page": 46,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed set of requirements and procedures for managing system accounts, which aligns with the description of IA-2. The text explicitly outlines the steps and processes required for managing system accounts, making it an explicit authoritative definition.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "IA-4",
+        "control_title": "Identity and Access Management",
+        "control_desc": "Specify authorized users, group and role membership, and access authorizations for each account.",
+        "page": 46,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed set of requirements and procedures for managing system accounts, which aligns with the description of IA-4. The text explicitly defines the steps for specifying authorized users, group and role membership, and access authorizations for each account, which is the core of the IA-4 control.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "IA-5",
+        "control_title": "Identity and Access Management",
+        "control_desc": "Create, adjust, or remove system accounts in accordance with organizational policies.",
+        "page": 46,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed set of requirements and procedures for managing system accounts, which aligns with the description of the IA-5 control. The text explicitly outlines the steps for creating, adjusting, and removing system accounts, as well as the associated policies and procedures, which directly corresponds to the description provided in the claimed control.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "SC-7",
+        "control_title": "System and Communications Protection",
+        "control_desc": "Ensure that system account management processes are documented and maintained.",
+        "page": 46,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed set of requirements and processes for managing system accounts, which aligns with the description of SC-7. The text explicitly outlines the documentation and maintenance of these processes, which is a direct requirement for SC-7.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "CM-7",
+        "control_title": "Information flow enforcement",
+        "control_desc": "Use [Assignment: organization-defined security and privacy attributes] associated with [Assignment: organization-defined information, source, and destination objects] to enforce [Assignment: organization-defined information flow control policies] as a basis for flow control decisions.",
+        "page": 55,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed and explicit authoritative definition of the information flow enforcement control, which aligns with the description of CM-7. The text describes the enforcement of information flow control policies based on organization-defined attributes and objects, which directly corresponds to the claimed control.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "SC-4",
+        "control_title": "Information flow enforcement",
+        "control_desc": "Use [Assignment: organization-defined security and privacy attributes] associated with [Assignment: organization-defined information, source, and destination objects] to enforce [Assignment: organization-defined information flow control policies] as a basis for flow control decisions.",
+        "page": 55,
+        "validation": {
+            "is_valid": true,
+            "reason": "The text provides a detailed and explicit authoritative definition of the 'Information Flow Enforcement' control, which aligns with the description of SC-4. The text describes the implementation and enforcement of information flow control policies using organization-defined attributes and objects, which directly corresponds to the requirements of SC-4.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "IA-5",
+        "control_title": "Password-Based Authentication",
+        "control_desc": "Maintain a list of commonly-used, expected, or compromised passwords and update the list [Assignment: organization-defined frequency] and when organizational passwords are suspected to have been compromised directly or indirectly; verify, when users create or update passwords, that the passwords are not found on the list of commonly-used, expected, or compromised passwords; transmit passwords only over cryptographically-protected channels; store passwords using an approved salted key derivation function, preferably using a keyed hash; require immediate selection of a new password upon account recovery; allow user selection of long passwords and passphrases, including spaces and all printable characters; employ automated tools to assist the user in selecting strong password authenticators; and enforce the following composition and complexity rules: [Assignment: organization-defined composition and complexity rules].",
+        "page": 165,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides a detailed and explicit definition of the requirements for managing system authenticators, which aligns with the official definition of IA-5. It covers aspects such as verifying identities during initial distribution, establishing initial content, ensuring strength, and implementing administrative procedures for distribution, revocation, and refreshing of authenticators. The text also discusses protecting authenticator content and changing authenticators based on organizational-defined criteria.",
+            "confidence_score": 9
+        }
+    },
+    {
+        "control_id": "SI-10",
+        "control_title": "Information Input Validation",
+        "control_desc": "Input validation ensures accurate and correct inputs and prevents attacks such as cross-site scripting and a variety of injection attacks.",
+        "page": 376,
+        "validation": {
+            "is_valid": true,
+            "reason": "The source text provides an official definition for SI-10, which includes the validation of system inputs and the prevention of certain types of attacks.",
+            "confidence_score": 9
+        }
+    }
+]

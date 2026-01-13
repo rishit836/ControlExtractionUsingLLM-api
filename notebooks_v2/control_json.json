@@ -1,0 +1,230 @@
+[
+  {
+    "control_id": "AC-1",
+    "control_title": "Access Control Policy and Procedures Requirements",
+    "control_desc": "a. Develop, document, and disseminate to [Assignment: organization-defined personnel or roles]: 1. [Selection (one or more): Organization-level; Mission/business process-level; System-level] access control policy that: (a) Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and (b) Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and 2. Procedures to facilitate the implementation of the access control policy and the associated access controls; b. Designate an [Assignment: organization-defined official] to manage the development, documentation, and dissemination of the access control policy and procedures; and c. Review and update the current access control: 1. Policy [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]; and 2. Procedures [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]. [1, 2]",
+    "page": 44
+  },
+  {
+    "control_id": "AC-2",
+    "control_title": "System Account Management Requirements and Procedures",
+    "control_desc": "a. Define and document the types of accounts allowed and specifically prohibited for use within the system; b. Assign account managers; c. Require [Assignment: organization-defined prerequisites and criteria] for group and role membership; d. Specify: 1. Authorized users of the system; 2. Group and role membership; and 3. Access authorizations (i.e., privileges) and [Assignment: organization-defined attributes (as required)] for each account; e. Require approvals by [Assignment: organization-defined personnel or roles] for requests to create accounts; f. Create, enable, modify, disable, and remove accounts in accordance with [Assignment: organization-defined policy, procedures, prerequisites, and criteria]; g. Monitor the use of accounts; h. Notify account managers and [Assignment: organization-defined personnel or roles] within: 1. [Assignment: organization-defined time period] when accounts are no longer required; 2. [Assignment: organization-defined time period] when users are terminated or transferred; and 3. [Assignment: organization-defined time period] when system usage or need-to-know changes for an individual; i. Authorize access to the system based on: 1. A valid access authorization; 2. Intended system usage; and 3. [Assignment: organization-defined attributes (as required)]; j. Review accounts for compliance with account management requirements [Assignment: organization-defined frequency]; k. Establish and implement a process for changing shared or group account authenticators (if deployed) when individuals are removed from the group; and l. Align account management processes with personnel termination and transfer processes. [3-6]",
+    "page": 45
+  },
+  {
+    "control_id": "AC-3",
+    "control_title": "Access Enforcement Based on Approved Authorizations",
+    "control_desc": "Enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies. [7]",
+    "page": 49
+  },
+  {
+    "control_id": "AC-4",
+    "control_title": "Information Flow Enforcement Based on Policies",
+    "control_desc": "Enforce approved authorizations for controlling the flow of information within the system and between connected systems based on [Assignment: organization-defined information flow control policies]. [8]",
+    "page": 54
+  },
+  {
+    "control_id": "AC-5",
+    "control_title": "Separation of Duties for Critical Functions",
+    "control_desc": "a. Identify and document [Assignment: organization-defined duties of individuals requiring separation]; and b. Define system access authorizations to support separation of duties. [9]",
+    "page": 62
+  },
+  {
+    "control_id": "AC-6",
+    "control_title": "Least Privilege for Users and Processes",
+    "control_desc": "Employ the principle of least privilege, allowing only authorized accesses for users (or processes acting on behalf of users) that are necessary to accomplish assigned organizational tasks. [10]",
+    "page": 62
+  },
+  {
+    "control_id": "AC-7",
+    "control_title": "Unsuccessful Logon Attempt Limits and Responses",
+    "control_desc": "a. Enforce a limit of [Assignment: organization-defined number] consecutive invalid logon attempts by a user during a [Assignment: organization-defined time period]; and b. Automatically [Selection (one or more): lock the account or node for an [Assignment: organization-defined time period]; lock the account or node until released by an administrator; delay next logon prompt per [Assignment: organization-defined delay algorithm]; notify system administrator; take other [Assignment: organization-defined action]] when the maximum number of unsuccessful attempts is exceeded. [11]",
+    "page": 65
+  },
+  {
+    "control_id": "AC-8",
+    "control_title": "System Use Notification and Consent Banners",
+    "control_desc": "a. Display [Assignment: organization-defined system use notification message or banner] to users before granting access to the system that provides privacy and security notices consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines and state that: 1. Users are accessing a U.S. Government system; 2. System usage may be monitored, recorded, and subject to audit; 3. Unauthorized use of the system is prohibited and subject to criminal and civil penalties; and 4. Use of the system indicates consent to monitoring and recording; b. Retain the notification message or banner on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the system; and c. For publicly accessible systems: 1. Display system use information [Assignment: organization-defined conditions], before granting further access to the publicly accessible system; 2. Display references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities; and 3. Include a description of the authorized uses of the system. [12-14]",
+    "page": 66
+  },
+  {
+    "control_id": "AC-9",
+    "control_title": "Notification of Previous Successful Logon Activity",
+    "control_desc": "Notify the user, upon successful logon to the system, of the date and time of the last logon. [15]",
+    "page": 67
+  },
+  {
+    "control_id": "AC-10",
+    "control_title": "Concurrent Session Control for System Accounts",
+    "control_desc": "Limit the number of concurrent sessions for each [Assignment: organization-defined account and/or account type] to [Assignment: organization-defined number]. [16]",
+    "page": 68
+  },
+  {
+    "control_id": "AC-11",
+    "control_title": "Device Lock and Re-establishment of Access",
+    "control_desc": "a. Prevent further access to the system by [Selection (one or more): initiating a device lock after [Assignment: organization-defined time period] of inactivity; requiring the user to initiate a device lock before leaving the system unattended]; and b. Retain the device lock until the user reestablishes access using established identification and authentication procedures. [17]",
+    "page": 68
+  },
+  {
+    "control_id": "AC-12",
+    "control_title": "Automatic Session Termination and Trigger Events",
+    "control_desc": "Automatically terminate a user session after [Assignment: organization-defined conditions or trigger events requiring session disconnect]. [18]",
+    "page": 69
+  },
+  {
+    "control_id": "AC-14",
+    "control_title": "Permitted System Actions Without Identification Authentication",
+    "control_desc": "a. Identify [Assignment: organization-defined user actions] that can be performed on the system without identification or authentication consistent with organizational mission and business functions; and b. Document and provide supporting rationale in the security plan for the system, user actions not requiring identification or authentication. [19]",
+    "page": 70
+  },
+  {
+    "control_id": "AC-16",
+    "control_title": "Security and Privacy Attributes for Information",
+    "control_desc": "a. Provide the means to associate [Assignment: organization-defined types of security and privacy attributes] with [Assignment: organization-defined security and privacy attribute values] for information in storage, in process, and/or in transmission; b. Ensure that the attribute associations are made and retained with the information; c. Establish the following permitted security and privacy attributes from the attributes defined in AC-16a for [Assignment: organization-defined systems]: [Assignment: organization-defined security and privacy attributes]; d. Determine the following permitted attribute values or ranges for each of the established attributes: [Assignment: organization-defined attribute values or ranges for established attributes]; e. Audit changes to attributes; and f. Review [Assignment: organization-defined security and privacy attributes] for applicability [Assignment: organization-defined frequency]. [20-22]",
+    "page": 70
+  },
+  {
+    "control_id": "AC-17",
+    "control_title": "Remote Access Usage Restrictions and Authorization",
+    "control_desc": "a. Establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed; and b. Authorize each type of remote access to the system prior to allowing such connections. [23]",
+    "page": 74
+  },
+  {
+    "control_id": "AC-18",
+    "control_title": "Wireless Access Configuration and Authorization",
+    "control_desc": "a. Establish configuration requirements, connection requirements, and implementation guidance for each type of wireless access; and b. Authorize each type of wireless access to the system prior to allowing such connections. [24]",
+    "page": 76
+  },
+  {
+    "control_id": "AC-19",
+    "control_title": "Access Control Requirements for Mobile Devices",
+    "control_desc": "a. Establish configuration requirements, connection requirements, and implementation guidance for organization-controlled mobile devices, to include when such devices are outside of controlled areas; and b. Authorize the connection of mobile devices to organizational systems. [25]",
+    "page": 77
+  },
+  {
+    "control_id": "AC-20",
+    "control_title": "Use of External Systems and Conditions",
+    "control_desc": "a. [Selection (one or more): Establish [Assignment: organization-defined terms and conditions]; Identify [Assignment: organization-defined controls asserted to be implemented on external systems]], consistent with the trust relationships established with other organizations owning, operating, and/or maintaining external systems, allowing authorized individuals to: 1. Access the system from external systems; and 2. Process, store, or transmit organization-controlled information using external systems; or b. Prohibit the use of [Assignment: organizationally-defined types of external systems]. [26, 27]",
+    "page": 79
+  },
+  {
+    "control_id": "AC-21",
+    "control_title": "Information Sharing and Collaboration Decisions",
+    "control_desc": "a. Enable authorized users to determine whether access authorizations assigned to a sharing partner match the information\u2019s access and use restrictions for [Assignment: organization-defined information sharing circumstances where user discretion is required]; and b. Employ [Assignment: organization-defined automated mechanisms or manual processes] to assist users in making information sharing and collaboration decisions. [28]",
+    "page": 81
+  },
+  {
+    "control_id": "AC-22",
+    "control_title": "Management of Publicly Accessible Content",
+    "control_desc": "a. Designate individuals authorized to make information publicly accessible; b. Train authorized individuals to ensure that publicly accessible information does not contain nonpublic information; c. Review the proposed content of information prior to posting onto the publicly accessible system to ensure that nonpublic information is not included; and d. Review the content on the publicly accessible system for nonpublic information [Assignment: organization-defined frequency] and remove such information, if discovered. [29]",
+    "page": 82
+  },
+  {
+    "control_id": "AC-23",
+    "control_title": "Data Mining Prevention and Detection Techniques",
+    "control_desc": "Employ [Assignment: organization-defined data mining prevention and detection techniques] for [Assignment: organization-defined data storage objects] to detect and protect against unauthorized data mining. [30]",
+    "page": 82
+  },
+  {
+    "control_id": "AC-24",
+    "control_title": "Application of Access Control Decisions",
+    "control_desc": "[Selection: Establish procedures; Implement mechanisms] to ensure [Assignment: organization-defined access control decisions] are applied to each access request prior to access enforcement. [31]",
+    "page": 83
+  },
+  {
+    "control_id": "AC-25",
+    "control_title": "Reference Monitor for Policy Enforcement",
+    "control_desc": "Implement a reference monitor for [Assignment: organization-defined access control policies] that is tamperproof, always invoked, and small enough to be subject to analysis and testing, the completeness of which can be assured. [32]",
+    "page": 84
+  },
+  {
+    "control_id": "AT-2",
+    "control_title": "Security and Privacy Literacy Training Requirements",
+    "control_desc": "a. Provide security and privacy literacy training to system users (including managers, senior executives, and contractors): 1. As part of initial training for new users and [Assignment: organization-defined frequency] thereafter; and 2. When required by system changes or following [Assignment: organization-defined events]; b. Employ the following techniques to increase the security and privacy awareness of system users [Assignment: organization-defined awareness techniques]; c. Update literacy training and awareness content [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]; and d. Incorporate lessons learned from internal or external security incidents or breaches into literacy training and awareness techniques. [33, 34]",
+    "page": 87
+  },
+  {
+    "control_id": "AU-2",
+    "control_title": "Event Logging and Rationale for Selection",
+    "control_desc": "a. Identify the types of events that the system is capable of logging in support of the audit function: [Assignment: organization-defined event types that the system is capable of logging]; b. Coordinate the event logging function with other organizational entities requiring audit-related information to guide and inform the selection criteria for events to be logged; c. Specify the following event types for logging within the system: [Assignment: organization-defined event types (subset of the event types defined in AU-2a.) along with the frequency of (or situation requiring) logging for each identified event type]; d. Provide a rationale for why the event types selected for logging are deemed to be adequate to support after-the-fact investigations of incidents; and e. Review and update the event types selected for logging [Assignment: organization-defined frequency]. [35, 36]",
+    "page": 92
+  },
+  {
+    "control_id": "AU-3",
+    "control_title": "Content of Audit Records for Forensics",
+    "control_desc": "Ensure that audit records contain information that establishes the following: a. What type of event occurred; b. When the event occurred; c. Where the event occurred; d. Source of the event; e. Outcome of the event; and f. Identity of any individuals, subjects, or objects/entities associated with the event. [37]",
+    "page": 93
+  },
+  {
+    "control_id": "CA-2",
+    "control_title": "Control Assessments for System Verification",
+    "control_desc": "a. Select the appropriate assessor or assessment team for the type of assessment to be conducted; b. Develop a control assessment plan that describes the scope of the assessment including: 1. Controls and control enhancements under assessment; 2. Assessment procedures to be used to determine control effectiveness; and 3. Assessment environment, assessment team, and assessment roles and responsibilities; c. Ensure the control assessment plan is reviewed and approved by the authorizing official or designated representative prior to conducting the assessment; d. Assess the controls in the system and its environment of operation [Assignment: organization-defined frequency] to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting established security and privacy requirements; e. Produce a control assessment report that document the results of the assessment; and f. Provide the results of the control assessment to [Assignment: organization-defined individuals or roles]. [38-40]",
+    "page": 110
+  },
+  {
+    "control_id": "CM-2",
+    "control_title": "Baseline Configuration Development and Maintenance",
+    "control_desc": "a. Develop, document, and maintain under configuration control, a current baseline configuration of the system; and b. Review and update the baseline configuration of the system: 1. [Assignment: organization-defined frequency]; 2. When required due to [Assignment: organization-defined circumstances]; and 3. When system components are installed or upgraded. [41]",
+    "page": 123
+  },
+  {
+    "control_id": "CP-2",
+    "control_title": "System Contingency Plan and Recovery Activities",
+    "control_desc": "a. Develop a contingency plan for the system that: 1. Identifies essential mission and business functions and associated contingency requirements; 2. Provides recovery objectives, restoration priorities, and metrics; 3. Addresses contingency roles, responsibilities, assigned individuals with contact information; 4. Addresses maintaining essential mission and business functions despite a system disruption, compromise, or failure; 5. Addresses eventual, full system restoration without deterioration of the controls originally planned and implemented; 6. Addresses the sharing of contingency information; and 7. Is reviewed and approved by [Assignment: organization-defined personnel or roles]; b. Distribute copies of the contingency plan to [Assignment: organization-defined key contingency personnel (identified by name and/or by role) and organizational elements]; c. Coordinate contingency planning activities with incident handling activities; d. Review the contingency plan for the system [Assignment: organization-defined frequency]; e. Update the contingency plan to address changes to the organization, system, or environment of operation and problems encountered during contingency plan implementation, execution, or testing; f. Communicate contingency plan changes to [Assignment: organization-defined key contingency personnel (identified by name and/or by role) and organizational elements]; g. Incorporate lessons learned from contingency plan testing, training, or actual contingency activity into contingency testing and training; and h. Protect the contingency plan from unauthorized disclosure and modification. [42-45]",
+    "page": 142
+  },
+  {
+    "control_id": "IA-2",
+    "control_title": "Identification and Authentication of Organizational Users",
+    "control_desc": "Uniquely identify and authenticate organizational users and associate that unique identification with processes acting on behalf of those users. [46]",
+    "page": 158
+  },
+  {
+    "control_id": "IR-4",
+    "control_title": "Incident Handling Capability and Coordination",
+    "control_desc": "a. Implement an incident handling capability for incidents that is consistent with the incident response plan and includes preparation, detection and analysis, containment, eradication, and recovery; b. Coordinate incident handling activities with contingency planning activities; c. Incorporate lessons learned from ongoing incident handling activities into incident response procedures, training, and testing, and implement the resulting changes accordingly; and d. Ensure the rigor, intensity, scope, and results of incident handling activities are comparable and predictable across the organization. [47, 48]",
+    "page": 178
+  },
+  {
+    "control_id": "MA-2",
+    "control_title": "Controlled Maintenance Records and Approval",
+    "control_desc": "a. Schedule, document, and review records of maintenance, repair, and replacement on system components in accordance with manufacturer or vendor specifications and/or organizational requirements; b. Approve and monitor all maintenance activities, whether performed on site or remotely and whether the system or system components are serviced on site or removed to another location; c. Require that [Assignment: organization-defined personnel or roles] explicitly approve the removal of the system or system components from organizational facilities for off-site maintenance, repair, or replacement; d. Sanitize equipment to remove the following information from associated media prior to removal from organizational facilities for off-site maintenance, repair, or replacement: [Assignment: organization-defined information]; e. Check all potentially impacted controls to verify that the controls are still functioning properly following maintenance, repair, or replacement actions; and f. Include the following information in organizational maintenance records: [Assignment: organization-defined information]. [49, 50]",
+    "page": 189
+  },
+  {
+    "control_id": "MP-6",
+    "control_title": "Media Sanitization Prior to Disposal or Reuse",
+    "control_desc": "a. Sanitize [Assignment: organization-defined system media] prior to disposal, release out of organizational control, or release for reuse using [Assignment: organization-defined sanitization techniques and procedures]; and b. Employ sanitization mechanisms with the strength and integrity commensurate with the security category or classification of the information. [51]",
+    "page": 200
+  },
+  {
+    "control_id": "PE-3",
+    "control_title": "Physical Access Control and Audit Logs",
+    "control_desc": "a. Enforce physical access authorizations at [Assignment: organization-defined entry and exit points to the facility where the system resides] by: 1. Verifying individual access authorizations before granting access to the facility; and 2. Controlling ingress and egress to the facility using [Selection (one or more): [Assignment: organization-defined physical access control systems or devices]; guards]; b. Maintain physical access audit logs for [Assignment: organization-defined entry or exit points]; c. Control access to areas within the facility designated as publicly accessible by implementing the following controls: [Assignment: organization-defined physical access controls]; d. Escort visitors and control visitor activity [Assignment: organization-defined circumstances requiring visitor escorts and control of visitor activity]; e. Secure keys, combinations, and other physical access devices; f. Inventory [Assignment: organization-defined physical access devices] every [Assignment: organization-defined frequency]; and g. Change combinations and keys [Assignment: organization-defined frequency] and/or when keys are lost, combinations are compromised, or when individuals possessing the keys or combinations are transferred or terminated. [52-54]",
+    "page": 207
+  },
+  {
+    "control_id": "SA-4",
+    "control_title": "Acquisition Process Requirements and Assurance",
+    "control_desc": "Include the following requirements, descriptions, and criteria, explicitly or by reference, using [Selection (one or more): standardized contract language; [Assignment: organization-defined contract language]] in the acquisition contract for the system, system component, or system service: a. Security and privacy functional requirements; b. Strength of mechanism requirements; c. Security and privacy assurance requirements; d. Controls needed to satisfy the security and privacy requirements; e. Security and privacy documentation requirements; f. Requirements for protecting security and privacy documentation; g. Description of the system development environment and environment in which the system is intended to operate; h. Allocation of responsibility or identification of parties responsible for information security, privacy, and supply chain risk management; and i. Acceptance criteria. [55, 56]",
+    "page": 278
+  },
+  {
+    "control_id": "SC-7",
+    "control_title": "Boundary Protection and Managed Interfaces",
+    "control_desc": "a. Monitor and control communications at the external managed interfaces to the system and at key internal managed interfaces within the system; b. Implement subnetworks for publicly accessible system components that are [Selection: physically; logically] separated from internal organizational networks; and c. Connect to external networks or systems only through managed interfaces consisting of boundary protection devices arranged in accordance with an organizational security and privacy architecture. [57]",
+    "page": 323
+  },
+  {
+    "control_id": "SI-4",
+    "control_title": "System Monitoring to Detect Potential Attacks",
+    "control_desc": "a. Monitor the system to detect: 1. Attacks and indicators of potential attacks in accordance with the following monitoring objectives: [Assignment: organization-defined monitoring objectives]; and 2. Unauthorized local, network, and remote connections; b. Identify unauthorized use of the system through the following techniques and methods: [Assignment: organization-defined techniques and methods]; c. Invoke internal monitoring capabilities or deploy monitoring devices: 1. Strategically within the system to collect organization-determined essential information; and 2. At ad hoc locations within the system to track specific types of transactions of interest to the organization; d. Analyze detected events and anomalies; e. Adjust the level of system monitoring activity when there is a change in risk to organizational operations and assets, individuals, other organizations, or the Nation; f. Obtain legal opinion regarding system monitoring activities; and g. Provide [Assignment: organization-defined system monitoring information] to [Assignment: organization-defined personnel or roles] [Selection (one or more): as needed; [Assignment: organization-defined frequency]]. [58-60]",
+    "page": 363
+  },
+  {
+    "control_id": "SR-2",
+    "control_title": "Supply Chain Risk Management Plan Development",
+    "control_desc": "a. Develop a plan for managing supply chain risks associated with the research and development, design, manufacturing, acquisition, delivery, integration, operations and maintenance, and disposal of the following systems, system components or system services: [Assignment: organization-defined systems, system components, or system services]; b. Review and update the supply chain risk management plan [Assignment: organization-defined frequency] or as required, to address threat, organizational or environmental changes; and c. Protect the supply chain risk management plan from unauthorized disclosure and modification. [61, 62]",
+    "page": 390
+  }
+]
